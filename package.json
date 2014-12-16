@@ -1,0 +1,47 @@
+{
+  "name": "getAwesomeness()",
+  "description": "getAwesomeness retrieves all amazing awesomeness on Github in one shot.",
+  "keywords": [
+    "awesome",
+    "awesomeness",
+    "getAwesomeness"
+  ],
+  "version": "0.1.0",
+  "private": true,
+  "author": "Panzhang Wang",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panzhangwang/getAwesomeness.git"
+  },
+  "engines": {
+    "node": "0.11.13"
+  },
+  "scripts": {
+    "start": "NODE_PATH=./config:./app/controllers NODE_ENV=development ./node_modules/.bin/nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "latest",
+    "express": "latest",
+    "cookie-parser": "1.3.3",
+    "cookie-session": "1.0.2",
+    "forever": "0.11.1",
+    "method-override": "2.2.0",
+    "morgan": "1.3.1",    
+    "swig": "1.4.2",
+    "view-helpers": "0.1.5",
+    "winston": "0.8.0",
+    "connect-assets": "latest",
+    "less": "1.7.5",
+    "remarkable": "latest",
+    "cron": "latest",
+    "request": "latest",
+    "memory-cache": "latest",
+    "lodash": "latest"
+  },
+  "devDependencies": {
+    "supertest": "0.13.0",
+    "should": "4.0.4",
+    "mocha": "1.21.4",
+    "nodemon": "1.2.1"
+  }
+}

@@ -1,0 +1,10 @@
+  {% include '../includes/head.html' %}
+
+  <body>
+  	{% include '../includes/header.html' %}
+  	<div class="container">
+    	{% block content %}{% endblock %}    	
+    </div>
+    {{ js('application') }}
+  </body>
+</html>

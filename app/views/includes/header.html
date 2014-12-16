@@ -1,0 +1,30 @@
+<nav role="navigation" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" data-toggle="collapse" data-target=".navbar-collapse" class="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/" class="navbar-brand">getAwesomeness()</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      {% if (recents.length) %}
+        <ul class="nav navbar-nav">
+          {% for r in recents %}          
+            <li class="{% if (r == awe) %}active{% endif %}"><a href="{{ '/get/' + r }}">{{ getAwesomeName(r) }}</a></li>            
+          {% endfor %}
+        </ul>
+      {% endif %}
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="https://www.gratipay.com/panzhangwang/"><img src="https://img.shields.io/gratipay/panzhangwang.svg?style=flat" alt="Gittip" data-canonical-src="https://img.shields.io/gratipay/panzhangwang.svg?style=flat" style="max-width:100%;"></a>
+        </li>
+        <li>
+          <iframe src="http://ghbtns.com/github-btn.html?user=panzhangwang&amp;repo=getawesomeness&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="45" style="padding: 15px 0 0 15px;"></iframe>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

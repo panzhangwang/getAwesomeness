@@ -1,0 +1,88 @@
+@import "lib/bootstrap/bootstrap";
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 60px;
+}
+body > .container {
+  padding-top: 60px;
+}
+.affix, .affix-top {
+  position:static;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+    margin-top:0;
+    width:260px;
+  }
+  #sidebar.affix {
+    position: fixed;
+    top: 60px;
+    width:260px;
+  }
+}
+
+#sidebar{
+  max-height: 100%;
+  overflow-y: auto;   
+}
+
+.navbar-right > li > a {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.list-group-item {
+  padding: 5px 15px;
+}
+.panel-heading {
+  padding: 5px 15px;
+}
+
+.toc {    
+    background: #333;
+    box-shadow: inset -5px 0 5px 0px #000;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.toc ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.toc li {
+    padding: 5px 10px;
+}
+
+.toc a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.toc .toc-h1 {
+    padding-left: 5px;
+}
+
+.toc .toc-h2 {
+    padding-left: 15px;
+}
+
+.toc .toc-h3 {
+    padding-left: 25px;
+}
+.toc .toc-h4 {
+    padding-left: 35px;
+}
+
+.toc .toc-active {
+    background: #336699;
+    box-shadow: inset -5px 0px 10px -5px #000;
+}

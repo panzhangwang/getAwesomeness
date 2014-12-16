@@ -1,0 +1,17 @@
+{% extends 'layouts/default.html' %}
+
+{% block content %}
+	<div class="row">
+		<div class="col-md-2">
+			{% include 'includes/left.html' %}
+		</div>
+		<div class="col-md-7">
+			<article>
+	  		{{ md(article) }}
+	  	</article>
+		</div>
+		<div class="col-md-3">
+			<div id="sidebar" class="toc"></div>
+		</div> 
+  </div>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends 'layouts/default.html' %}
+
+{% block content %}
+	<div class="row">
+		<div class="col-md-2">
+			{% include 'includes/left.html' %}
+		</div>
+		<div class="col-md-10">
+	  	<div class="jumbotron">
+        <h1>Use getAwesomeness()</h1>
+        <p>To retrieve all amazing awesomeness on Github in one shot!</p>
+      </div>
+      <div class="row">
+      	<div class="col-sm-6">
+      		<h2>Features</h2>
+      		<ul>
+      			<li>Designed for all developers.</li>
+      			<li>All awesomeness in a single place, simple layout.</li>
+      			<li>Better organization on awesomeness category.</li>
+      			<li>Easier navigation between categories or table of contents.</li>
+      			<li>Content automaticly synchronized with github.</li>
+      			<li>No hassle! No login! No database!</li>
+      			<li>Open source and use for free.</li>
+      		</ul>
+
+      		<h2>Honors</h2>
+      		<ul>
+      			<li>bayandin, <a href="https://github.com/bayandin/awesome-awesomeness">awesome-awesomeness</a></li>
+      			<li>avelino, <a href="https://github.com/avelino/awesome-go">awesome-go</a> </li>
+      			<li>ziadoz, <a href="https://github.com/ziadoz/awesome-php">awesome-php</a> </li>
+      		</ul>
+
+      		<h2>Guide</h2>
+      		
+      	</div>
+      </div>
+		</div>
+  </div>
+{% endblock %}
