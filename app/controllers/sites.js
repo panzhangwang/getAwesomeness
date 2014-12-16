@@ -27,13 +27,15 @@ function processCookie(req, res) {
   } else {
     var existings = JSON.parse(aweCookie);
     if (!_.contains(existings, awe)) {
-      if (existings.length < 3) {
+      if (existings.length < 5) {
         existings.push(awe);
         res.cookie('aweCookie', JSON.stringify(existings), { maxAge: maxAge, httpOnly: true });
       } else {
         var arr = [];
         arr.push(existings[1]);
         arr.push(existings[2]);
+        arr.push(existings[3]);
+        arr.push(existings[4]);
         arr.push(awe);
         res.cookie('aweCookie', JSON.stringify(arr), { maxAge: maxAge, httpOnly: true });
       }     
