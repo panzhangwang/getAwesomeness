@@ -1,7 +1,7 @@
 getAwesomeness
 ==============
 
- Use getAwesomeness() to retrieve all amazing awesomeness on Github in one shot!
+ Use getAwesomeness() to retrieve all amazing awesomeness from Github.
 
 ## Install
 
