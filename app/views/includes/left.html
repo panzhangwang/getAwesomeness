@@ -1,8 +1,12 @@
+{% macro aw(name) %}
+  <a class="list-group-item {% if (awe == name) %}active{% endif %}" href="{{ '/get/' + name }}">{{ getAwesomeName(name) }}</a>
+{% endmacro %}
+
 <div id="leftbar">
 	<div class="panel panel-default">
 	  <div class="panel-heading">General</div>
 	  <div class="list-group">
-			<a class="list-group-item {% if (awe == 'go') %}active{% endif %}" href="/get/go">Go</a>
+			{{ aw('go') }}
 			<a class="list-group-item" href="#">Link</a>
 			<a class="list-group-item" href="#">Link</a>
 		</div>
@@ -39,7 +43,7 @@
 	<div class="panel panel-default">
 	  <div class="panel-heading">Web</div>
 	  <div class="list-group">
-			<a class="list-group-item {% if (awe == 'php') %}active{% endif %}" href="/get/php">PHP</a>
+			{{ aw('php') }}		
 			<a class="list-group-item" href="#">Link</a>
 		</div>
 	</div>
@@ -53,7 +57,7 @@
 	<div class="panel panel-default">
 	  <div class="panel-heading">Frontend</div>
 	  <div class="list-group">
-			<a class="list-group-item" href="#">Link</a>
+	  	{{ aw('svg') }}
 			<a class="list-group-item" href="#">Link</a>
 		</div>
 	</div>
