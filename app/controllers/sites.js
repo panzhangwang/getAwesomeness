@@ -7,7 +7,7 @@ var awes = utils.awes();
 
     
 exports.index = function (req, res){
-	var aweCookie = req.cookies.awec;
+	var aweCookie = req.cookies.aweCookie;
 	var recents = aweCookie? JSON.parse(aweCookie) : [];
   res.render('index', {
     title: 'Home',
@@ -17,25 +17,25 @@ exports.index = function (req, res){
 
 function processCookie(req, res) {
   var awe = req.param('awe');
-  var aweCookie = req.cookies.awec;
+  var aweCookie = req.cookies.aweCookie;
   var maxAge = 7*24*60*60*1000;
 
   if (!aweCookie) {
     var arr = [];
     arr.push(awe);
-    res.cookie('awec', JSON.stringify(arr), { maxAge: maxAge, httpOnly: true });
+    res.cookie('aweCookie', JSON.stringify(arr), { maxAge: maxAge, httpOnly: true });
   } else {
     var existings = JSON.parse(aweCookie);
     if (!_.contains(existings, awe)) {
       if (existings.length < 3) {
         existings.push(awe);
-        res.cookie('awec', JSON.stringify(existings), { maxAge: maxAge, httpOnly: true });
+        res.cookie('aweCookie', JSON.stringify(existings), { maxAge: maxAge, httpOnly: true });
       } else {
         var arr = [];
         arr.push(existings[1]);
         arr.push(existings[2]);
         arr.push(awe);
-        res.cookie('awec', JSON.stringify(arr), { maxAge: maxAge, httpOnly: true });
+        res.cookie('aweCookie', JSON.stringify(arr), { maxAge: maxAge, httpOnly: true });
       }     
     }   
   }
@@ -48,7 +48,7 @@ exports.get = function (req, res){
   if (!awes[awe]) return res.render('404');
 
   processCookie(req, res);
-  var aweCookie = req.cookies.awec;
+  var aweCookie = req.cookies.aweCookie;
   var recents = aweCookie? JSON.parse(aweCookie) : [];
 
   if (!post) {
