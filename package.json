@@ -1,6 +1,6 @@
 {
   "name": "getAwesomeness()",
-  "description": "getAwesomeness retrieves all amazing awesomeness on Github in one shot.",
+  "description": "Use getAwesomeness() to retrieve all amazing awesomeness from Github.",
   "keywords": [
     "awesome",
     "awesomeness",
