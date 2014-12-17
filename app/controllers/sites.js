@@ -46,22 +46,22 @@ function processCookie(req, res) {
 exports.get = function (req, res){
 	var awe = req.param('awe');
   var post = cache.get(awe);
+  var found = awes[awe];
 
-  if (!awes[awe]) return res.render('404');
+  if (!found) return res.render('404');
 
   processCookie(req, res);
   var aweCookie = req.cookies.aweCookie;
   var recents = aweCookie? JSON.parse(aweCookie) : [];
 
   if (!post) {
-    var elem = awes[awe];
-    return cacheGit(elem.url, elem.start, elem.end, awe, function(content){
+    return cacheGit(found.url, found.start, found.end, awe, function(content){
       if (content) {
         new CronJob('* * 1 * * *', function(){ 
-          cacheGit(elem.url, elem.start, elem.end, awe, null); 
+          cacheGit(found.url, found.start, found.end, awe, null); 
         }, null, true, null);
         res.render('get', {
-          title: awe,
+          title: found.name,
           article: content,
           recents: recents,
           awe: awe
@@ -71,7 +71,7 @@ exports.get = function (req, res){
   }
 
   res.render('get', {
-    title: awe,
+    title: found.name,
     article: post,
     recents: recents,
     awe: awe
