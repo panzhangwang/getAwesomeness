@@ -1,17 +1,19 @@
 {% extends 'layouts/default.html' %}
 
-{% block content %}
+{% block content %}	
 	<div class="row">
-		<div class="col-md-2">
+		<div class="col-md-2">			
 			{% include 'includes/left.html' %}
 		</div>
-		<div class="col-md-7">
+		<div class="col-md-7">			
 			<article class="markdown-body">
 	  		{{ md(article) }}
 	  	</article>
 		</div>
 		<div class="col-md-3">
-			<div id="sidebar" class="toc"></div>
+			<div id="sidebar">	
+				<div class="toc"></div>
+			</div>			
 		</div> 
   </div>
 {% endblock %}

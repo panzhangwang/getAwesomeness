@@ -1,7 +1,9 @@
-getAwesomeness
+getAwesomeness()
 ==============
 
- Use getAwesomeness() to retrieve all amazing awesomeness from Github.
+getAwesomeness() is a simple consolidated viewer for curated awesome resource list hosted on Github. Big honors to those curators!
+
+As a developer, we need check out these resources pretty often, and we want to save our time and have a better bookmarking experience. With that in mind, getAwesomeness() provides a better organization and navigation choice. It works by croping the table of contents out from  the markdown file, normally, README.md, and regenerating TOC and then affixing it on the side bar. So, if you found the hacking breaks, please raise an issue or send us a PR, your contribution is always welcome.
 
 ## Install
 
