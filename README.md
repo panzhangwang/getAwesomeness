@@ -10,6 +10,7 @@ As a developer, we need check out these resources pretty often, and we want to s
 
 ```sh
 $ git clone git://github.com/panzhangwang/getAwesomeness.git
+$ cd getAwesomeness
 $ npm install
 $ npm start
 ```
