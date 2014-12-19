@@ -1,5 +1,5 @@
 
-var sites = require('sites');
+var sites = require('../app/controllers/sites');
 
 /**
  * Expose routes

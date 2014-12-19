@@ -10,7 +10,7 @@
 
 var fs = require('fs');
 var express = require('express');
-var config = require('config');
+var config = require('./config/config');
 
 var app = express();
 var port = process.env.PORT || 3000;
