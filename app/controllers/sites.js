@@ -45,7 +45,7 @@ function processCookie(req, res) {
 
 exports.get = function (req, res){
 	var awe = req.param('awe');
-  var post = cache.get(awe);
+  var article = cache.get(awe);
   var found = awes[awe];
 
   if (!found) return res.render('404');
@@ -54,40 +54,47 @@ exports.get = function (req, res){
   var aweCookie = req.cookies.aweCookie;
   var recents = aweCookie? JSON.parse(aweCookie) : [];
 
-  if (!post) {
-    return cacheGit(found.url, found.start, found.end, awe, function(content){
-      if (content) {
-        new CronJob('* * 1 * * *', function(){ 
-          cacheGit(found.url, found.start, found.end, awe, null); 
-        }, null, true, null);
-        res.render('get', {
-          title: found.name,
-          article: content,
-          recents: recents,
-          awe: awe
-        });
-      }
-    })
+  if (article) {
+    return res.render('get', {
+      title: found.name,
+      article: article,
+      recents: recents,
+      awe: awe
+    });
   }
 
-  res.render('get', {
-    title: found.name,
-    article: post,
-    recents: recents,
-    awe: awe
+  request(found.url, function (error, response, body) {      
+    if (!error && response.statusCode == 200) {
+      article = cacheGit(awe, found.start, found.end, body);
+      
+      // fire up a cron job to load update from github every 12 hours.
+      new CronJob('* * */12 * * *', function(){
+        request(found.url, function (error, response, body) {
+          if (!error && response.statusCode == 200) {
+            cacheGit(awe, found.start, found.end, body);
+          }
+        });
+      }, null, true, null);
+
+      return res.render('get', {
+        title: found.name,
+        article: article,
+        recents: recents,
+        awe: awe
+      });
+    } else {
+      return res.render('try');
+    }
   });
 };
 
-function cacheGit (url, start, end, key, done) {
-  request(url, function (error, response, body) {
-    var content;
-    if (!error && response.statusCode == 200) {      
-      var arr = body.split('\n');
-      // remove github toc.
-      arr.splice(start, end);
-      content = arr.join('\n');
-      cache.put(key, content );
-    }
-    done(content);
-  })
+function cacheGit(key, tocStart, tocEnd, body) {
+  var content;
+  var arr = body.split('\n');
+  // remove github toc.
+  arr.splice(tocStart, tocEnd);
+  content = arr.join('\n');
+  cache.put(key, content );
+
+  return content;
 }
