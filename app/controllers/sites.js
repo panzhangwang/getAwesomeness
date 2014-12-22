@@ -59,27 +59,31 @@ exports.get = function (req, res){
       title: found.name,
       article: article,
       recents: recents,
+      repo: found.repo,
       awe: awe
     });
   }
 
-  request(found.url, function (error, response, body) {      
+  var url = 'https://raw.githubusercontent.com' + found.repo + '/master/' + found.readme;
+
+  request(url, function (error, response, body) {   
     if (!error && response.statusCode == 200) {
       article = cacheGit(awe, found.start, found.end, body);
       
       // fire up a cron job to load update from github every 12 hours.
       new CronJob('* * */12 * * *', function(){
-        request(found.url, function (error, response, body) {
+        request(url, function (error, response, body) {
           if (!error && response.statusCode == 200) {
             cacheGit(awe, found.start, found.end, body);
           }
         });
       }, null, true, null);
 
-      return res.render('get', {
+      return res.render('get', {        
         title: found.name,
         article: article,
         recents: recents,
+        repo: found.repo,
         awe: awe
       });
     } else {

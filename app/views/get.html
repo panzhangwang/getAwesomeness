@@ -5,7 +5,8 @@
 		<div class="col-md-2">			
 			{% include 'includes/left.html' %}
 		</div>
-		<div class="col-md-7">			
+		<div class="col-md-7">
+			<a href="{{ 'https://github.com' + repo }}" class="btn btn-default pull-right">View on Github</a>	
 			<article class="markdown-body">
 	  		{{ md(article) }}
 	  	</article>
