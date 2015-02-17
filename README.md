@@ -2,6 +2,7 @@ getAwesomeness()
 ==============
 
 getAwesomeness() is a simple consolidated viewer for curated awesome resource list hosted on Github. Big honors to those awesome curators!
+Website: https://getawesomeness.herokuapp.com/ or http://getawesomeness.com
 
 ## Rational
 As a developer, we need check out these resources pretty often, and we want to save our time and have a better bookmarking experience. With that in mind, getAwesomeness() shares a better organization and navigation method. It works by croping the table of contents out from  the markdown file, normally, README.md, and regenerating TOC and then affixing it on the side bar. So, if you found the hacking breaks, please raise an issue or send us a PR, your contribution is always welcome.
