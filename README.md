@@ -1,8 +1,15 @@
 getAwesomeness()
 ==============
 
-getAwesomeness() is a simple consolidated viewer for curated awesome resource list hosted on Github. Big honors to those awesome curators!
-Website: https://getawesomeness.herokuapp.com/ or http://getawesomeness.com
+getAwesomeness() is an explorer designed for curated awesome list hosted on Github. Website: https://getawesomeness.herokuapp.com/ or http://getawesomeness.com
+
+
+## Key Features
+
+- Single repository  of amazing lists
+- Better organization and navigation
+- Content auto-synced with github
+- Short list for peronalization
 
 ## Rational
 As a developer, we need check out these resources pretty often, and we want to save our time and have a better bookmarking experience. With that in mind, getAwesomeness() shares a better organization and navigation method. It works by croping the table of contents out from  the markdown file, normally, README.md, and regenerating TOC and then affixing it on the side bar. So, if you found the hacking breaks, please raise an issue or send us a PR, your contribution is always welcome.
@@ -17,22 +24,14 @@ $ npm start
 ```
 Then visit [http://localhost:3000/](http://localhost:3000/)
 
-## Features
-
-- Designed for all developers.
-- All awesomeness in a single place, simple layout.
--  Better organization on awesomeness category.
-- Easier navigation between categories or table of contents.
-- Content automaticly synchronized with github.
-- Allow custom list and use mongodb for list storage.
-- Open source and use for free.
 
 ## Steps to contribute a new awesome list
-1. Open file includes/left.html, add a link on the left sidebar.
-2. Open file lib/utils.js. Follow some comments, it is simple to add a new one.
 
-That's it. 
+1. Open file lib/utils.js. Follow some comments, it is simple to add a new one.
+2. Optional. Open file includes/left.html, add a link on the left sidebar.
+
 
 ## License
 
 MIT
+
