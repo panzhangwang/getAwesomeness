@@ -24,7 +24,7 @@ Then visit [http://localhost:3000/](http://localhost:3000/)
 -  Better organization on awesomeness category.
 - Easier navigation between categories or table of contents.
 - Content automaticly synchronized with github.
-- Allow custom list and use lowdb for simple storage.
+- Allow custom list and use mongodb for list storage.
 - Open source and use for free.
 
 ## Steps to contribute a new awesome list
