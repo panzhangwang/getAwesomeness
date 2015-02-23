@@ -1,5 +1,6 @@
 
 var sites = require('../app/controllers/sites');
+var lists = require('../app/controllers/lists');
 
 /**
  * Expose routes
@@ -9,6 +10,22 @@ module.exports = function (app) {
   // home route
   app.get('/', sites.index);
   app.get('/get/:awe', sites.get);
+
+
+  // lists route
+  app.get('/all', lists.index);
+  app.get('/lists/new', lists.new);
+  app.get('/lists/:name', lists.show);
+
+  app.post('/lists', lists.create);
+  app.get('/lists/:id/edit', lists.edit);
+  app.put('/lists/:name', lists.update); 
+
+  app.get('/lists/:name/get/:awe', sites.get);
+
+  app.param('name', lists.load);
+  app.param('id', lists.loadById);
+  
 
   /**
    * Error handling

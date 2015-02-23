@@ -1,0 +1,36 @@
+{% extends '../layouts/default.html' %}
+
+{% block main %}
+  <h1>{{ title }}</h1>
+{% endblock %}
+
+{% block content %}
+  
+  <div class="row">
+    <div class="col-md-4">
+      <form method="post" action="{{ '/lists/' + list.name }}" role="form">
+        <input type="hidden" name="_csrf" value="{{ csrf_token }}">
+        <input type="hidden" name="_method" value="PUT">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" class="form-control" value="{{ list.name }}" id="name">
+        </div>
+        <div class="form-group">
+          <label for="keys">Awesomeness Keys</label>
+          <input type="text" name="keys" value="{{ list.keys }}" placeholder="Enter the keys" class="form-control" id="keys">
+        </div>
+        <div class="form-group">
+          <label for="pass">Secret</label>
+          <input type="password" name="pass" class="form-control" id="pass" required>
+        </div>
+
+        <div class="form-group">
+          <button class="btn btn-primary" type="submit" name="action" value="update">Update</button>&nbsp;
+          <button class="btn btn-danger" type="submit" name="action" value="delete" onClick="return confirm('Are you sure?')">Delete</button>
+          &nbsp;
+          <a href="javascript:history.go(-1)" class="btn btn-default">Cancel</a>
+        </div>
+      </form>
+    </div>
+  </div>
+{% endblock %}

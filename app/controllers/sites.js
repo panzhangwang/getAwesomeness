@@ -5,7 +5,7 @@ var _ = require('lodash');
 var utils = require('../../lib/utils');
 var awes = utils.awes();
 
-    
+
 exports.index = function (req, res){
 	var aweCookie = req.cookies.aweCookie;
 	var recents = aweCookie? JSON.parse(aweCookie) : [];
@@ -15,8 +15,9 @@ exports.index = function (req, res){
   });
 };
 
+
 function processCookie(req, res) {
-  var awe = req.param('awe');
+  var awe = req.params.awe;
   var aweCookie = req.cookies.aweCookie;
   var maxAge = 7*24*60*60*1000;
 
@@ -44,7 +45,11 @@ function processCookie(req, res) {
 }
 
 exports.get = function (req, res){
-	var awe = req.param('awe');
+  var list = req.list;
+  var keys = list ? list.keys.split(',') : [];
+  var activeList = req.params.name;
+
+	var awe = req.params.awe;
   var article = cache.get(awe);
   var found = awes[awe];
 
@@ -60,6 +65,8 @@ exports.get = function (req, res){
       article: article,
       recents: recents,
       repo: found.repo,
+      activeList: activeList,
+      keys: keys,
       awe: awe
     });
   }
@@ -84,6 +91,8 @@ exports.get = function (req, res){
         article: article,
         recents: recents,
         repo: found.repo,
+        activeList: activeList,
+        keys: keys,
         awe: awe
       });
     } else {

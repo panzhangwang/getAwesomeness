@@ -10,13 +10,20 @@
       <a href="/" class="navbar-brand">getAwesomeness()</a>
     </div>
     <div class="collapse navbar-collapse">
-      {% if (recents.length) %}
-        <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav">
+        <li class="{% if (isActive('/all')) %}active{% endif %}">
+          <a href="/all" title="Lists">Lists</a>
+        </li>
+        {% if activeList %}
+          <li class="active">
+            <a href="{{ '/lists/' + activeList }}" title="{{ activeList }}">{{ activeList }}</a>
+          </li>
+        {% else%}
           {% for r in recents %}          
-            <li class="{% if (r == awe) %}active{% endif %}"><a href="{{ '/get/' + r }}">{{ getAwesomeName(r) }}</a></li>            
+            <li class="{% if (r == awe) %}active{% endif %}"><a href="{{ '/get/' + r }}">{{ getAwesomeName(r) }}</a></li>           
           {% endfor %}
-        </ul>
-      {% endif %}
+        {% endif %}
+      </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
           <iframe src="http://ghbtns.com/github-btn.html?user=panzhangwang&amp;repo=getawesomeness&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="45" style="padding: 15px 0 0 15px;"></iframe>

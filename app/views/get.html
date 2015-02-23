@@ -2,8 +2,18 @@
 
 {% block content %}	
 	<div class="row">
-		<div class="col-md-2">			
-			{% include 'includes/left.html' %}
+		<div class="col-md-2">
+			{% if activeList %}		
+				{% if keys.length %}
+	        <div class="list-group">
+	          {% for key in keys %}
+	            <a class="list-group-item" href="{{ '/lists/' + activeList + '/get/' + key }}">{{ getAwesomeName(key) }}</a>
+	          {% endfor %}
+	        </div>
+	      {% endif %}
+			{% else %}
+				{% include 'includes/left.html' %}
+			{% endif %}
 		</div>
 		<div class="col-md-7">
 			<a href="{{ 'https://github.com' + repo }}" class="btn btn-default pull-right">View on Github</a>	

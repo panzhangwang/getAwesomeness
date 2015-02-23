@@ -1,8 +1,13 @@
 $(document).ready(function() {
+	$('#keys').tagsInput({
+		'defaultText':'add a key',
+    'height':'150px',
+    'width':'360px'
+  });
   $('#sidebar').affix({
     offset: {
-        top:100,
-        bottom:0
+      top:100,
+      bottom:0
     }
 	});
 	$('#sidebar').on('affixed.bs.affix', function(){

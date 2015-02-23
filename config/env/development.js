@@ -24,4 +24,5 @@ if (fs.existsSync(envFile)) {
  */
 
 module.exports = {
+	db: 'mongodb://localhost/awe_dev',
 };

@@ -17,6 +17,7 @@ var pkg = require('../package.json');
 var path = require('path');
 var connectAssets = require('connect-assets');
 var uihelpers = require('../lib/uihelpers');
+var flash = require('connect-flash');
 
 var env = process.env.NODE_ENV || 'development';
 
@@ -85,6 +86,7 @@ module.exports = function (app, passport) {
 
   app.use(cookieParser());
   app.use(cookieSession({ secret: 'getAwesomeness rocks secret' }));
+  app.use(flash());
   
   // should be declared after session and flash
   app.use(helpers(pkg.name));

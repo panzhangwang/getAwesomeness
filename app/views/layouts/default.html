@@ -3,6 +3,10 @@
   <body>
   	{% include '../includes/header.html' %}
   	<div class="container">
+  		{% block main %}{% endblock %}
+  		<div class="messages">
+        {% include '../includes/messages.html' %}
+      </div>
     	{% block content %}{% endblock %}    	
     </div>
     {{ js('application') }}

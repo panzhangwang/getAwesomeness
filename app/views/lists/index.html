@@ -1,0 +1,33 @@
+{% extends '../layouts/default.html' %}
+
+{% block main %}
+  <h1>{{ title }}</h1>
+{% endblock %}
+
+{% block content %}
+  {% if (lists.length) %}
+    <div class="row">
+      {% for list in lists %}
+        <div class="col-md-4">
+          <h3><a href="{{ '/lists/' + list.name }}" title="{{ list.name }}">{{ list.name }}</a></h3>
+        </div>
+      {% endfor %}    
+
+      <div class="col-md-12">
+        {% if (pages > 1) %}        
+          <ul class="pagination">
+            {% autoescape false %}
+              {{ createPagination(pages, page) }}
+            {% endautoescape %}
+          </ul>
+        {% endif %}
+        <p>Not found? <a href="/lists/new" title="New List">Create one</a></p>
+      </div>
+    </div>
+  {% else %}
+    <h4 class="muted">
+      No lists.&nbsp;
+      <a href="/lists/new" title="New List">Create one</a>
+    </h4>
+  {% endif %}
+{% endblock %}
