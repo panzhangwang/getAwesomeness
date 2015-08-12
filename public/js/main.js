@@ -1,9 +1,4 @@
 $(document).ready(function() {
-	$('#keys').tagsInput({
-		'defaultText':'add a key',
-    'height':'150px',
-    'width':'360px'
-  });
   $('#sidebar').affix({
     offset: {
       top:100,
@@ -16,5 +11,19 @@ $(document).ready(function() {
 	$('.toc').toc({
 		'selectors': 'h1,h2,h3,h4',
 		'container': 'article'
+	});
+
+	$.get('/json/list', function(data){
+    $("#typeahead").typeahead({ source:data });
+	},'json');
+
+	var $input = $('#typeahead');
+	$input.change(function() {
+    var current = $input.typeahead("getActive");
+    if (current) {
+      if (current.name == $input.val()) {
+      	window.location.href = '/get/' + current.key;
+      }
+    }
 	});
 });

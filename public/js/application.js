@@ -2,4 +2,5 @@
 //= require bootstrap.min
 //= require jquery.tagsinput.min
 //= require toc.min
+//= require bootstrap3-typeahead
 //= require main

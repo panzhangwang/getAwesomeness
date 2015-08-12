@@ -18,6 +18,10 @@ exports.index = function (req, res){
   });
 };
 
+exports.json = function (req, res){  
+  res.json( db('items').where() );
+};
+
 
 function processCookie(req, res) {
   var awe = req.params.awe;
@@ -64,18 +68,18 @@ exports.get = function (req, res){
 
   if (article) {
     return res.render('get', {
-      title: found.repo,
+      title: found.name,
       article: article,
       recents: recents,
       groups: db('groups').where({}),
-      repo: found.repo,
+      repo: found.name,
       activeAwe: activeAwe,
       keys: keys,
       awe: awe
     });
   }
 
-  var url = 'https://raw.githubusercontent.com' + found.repo + '/master/' + found.file;
+  var url = 'https://raw.githubusercontent.com' + found.name + '/master/' + found.file;
 
   request(url, function (error, response, body) {   
     if (!error && response.statusCode == 200) {
@@ -91,11 +95,11 @@ exports.get = function (req, res){
       }, null, true, null);
 
       return res.render('get', {        
-        title: found.repo,
+        title: found.name,
         article: article,
         recents: recents,
         groups: db('groups').where({}),
-        repo: found.repo,
+        repo: found.name,
         activeAwe: activeAwe,
         keys: keys,
         awe: awe

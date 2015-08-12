@@ -9,6 +9,7 @@ module.exports = function (app) {
   // home route
   app.get('/', sites.index);
   app.get('/get/:awe', sites.get);
+  app.get('/json/list', sites.json);
   
 
   /**
