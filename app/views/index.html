@@ -2,34 +2,24 @@
 
 {% block content %}
 	<div class="row">
-		<div class="col-md-2">
-			{% include 'includes/left.html' %}
-		</div>
-		<div class="col-md-10">
+		<div class="col-md-12">
 	  	<div class="jumbotron">
         <h1>Use getAwesomeness()</h1>
         <p>To retrieve all amazing awesomeness from Github</p>
       </div>
       <div class="row">
-      	<div class="col-sm-6">
-      		<h2>Features</h2>
-      		<ul>
-      			<li>Designed for all developers.</li>
-      			<li>All awesomeness in a single place, simple layout.</li>
-      			<li>Better organization on awesomeness category.</li>
-      			<li>Easier navigation between categories or table of contents.</li>
-      			<li>Content automaticly synchronized with github.</li>
-      			<li>Allow custom list and use mongodb for list storage.</li>
-      			<li>Open source and use for free.</li>
-      		</ul>
-
-      		<h2>Honors</h2>
-      		<ul>
-      			<li>Inspired by bayandin, <a href="https://github.com/bayandin/awesome-awesomeness">awesome-awesomeness</a>, and by sindresorhus, <a href="https://github.com/sindresorhus/awesome">awesome</a></li>
-      			<li>Big honors to the contributors and owners of the listed awesome list </li>
-      		</ul>
-      		
-      	</div>
+        {% for g in groups %}
+     		  <div class="col-md-3">
+        		<div class="panel panel-info">
+              <div class="panel-heading">{{ g.title }}</div>
+              <div class="list-group">
+                {% for it in g.items %}
+                  <a class="list-group-item" href="{{ '/get/' + it.key }}">{{ it.name }}</a>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        {% endfor %}
       </div>
 		</div>
   </div>

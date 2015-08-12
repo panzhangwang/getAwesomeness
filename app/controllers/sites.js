@@ -8,13 +8,13 @@ var low = require('lowdb');
 var db = low('db.json');
 
 
-exports.index = function (req, res){
-
+exports.index = function (req, res){  
 	var aweCookie = req.cookies.aweCookie;
 	var recents = aweCookie? JSON.parse(aweCookie) : [];
   res.render('index', {
     title: 'Home',
-    recents: recents
+    recents: recents,
+    groups: db('groups').where({})
   });
 };
 
@@ -50,11 +50,11 @@ function processCookie(req, res) {
 exports.get = function (req, res){
   var list = req.list;
   var keys = list ? list.keys.split(',') : [];
-  var activeList = req.params.name;
+  var activeAwe = req.params.name;
 
 	var awe = req.params.awe;
   var article = cache.get(awe);
-  var found = awes[awe];
+  var found = db('items').find({ key: awe });
 
   if (!found) return res.render('404');
 
@@ -64,17 +64,18 @@ exports.get = function (req, res){
 
   if (article) {
     return res.render('get', {
-      title: found.name,
+      title: found.repo,
       article: article,
       recents: recents,
+      groups: db('groups').where({}),
       repo: found.repo,
-      activeList: activeList,
+      activeAwe: activeAwe,
       keys: keys,
       awe: awe
     });
   }
 
-  var url = 'https://raw.githubusercontent.com' + found.repo + '/master/' + found.readme;
+  var url = 'https://raw.githubusercontent.com' + found.repo + '/master/' + found.file;
 
   request(url, function (error, response, body) {   
     if (!error && response.statusCode == 200) {
@@ -90,11 +91,12 @@ exports.get = function (req, res){
       }, null, true, null);
 
       return res.render('get', {        
-        title: found.name,
+        title: found.repo,
         article: article,
         recents: recents,
+        groups: db('groups').where({}),
         repo: found.repo,
-        activeList: activeList,
+        activeAwe: activeAwe,
         keys: keys,
         awe: awe
       });

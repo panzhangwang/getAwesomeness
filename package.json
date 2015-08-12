@@ -6,7 +6,7 @@
     "awesomeness",
     "getAwesomeness"
   ],
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": true,
   "author": "Panzhang Wang",
   "repository": {
@@ -38,8 +38,7 @@
     "request": "latest",
     "memory-cache": "latest",
     "lodash": "latest",
-    "lowdb": "^0.10.2",
-    "mongoose": "^4.1.2"
+    "lowdb": "^0.10.2"
   },
   "devDependencies": {
     "supertest": "0.13.0",

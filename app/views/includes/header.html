@@ -11,12 +11,9 @@
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="{% if (isActive('/all')) %}active{% endif %}">
-          <a href="/all" title="Lists">Lists</a>
-        </li>
-        {% if activeList %}
+        {% if activeAwe %}
           <li class="active">
-            <a href="{{ '/lists/' + activeList }}" title="{{ activeList }}">{{ activeList }}</a>
+            <a href="{{ '/lists/' + activeAwe }}" title="{{ activeAwe }}">{{ activeAwe }}</a>
           </li>
         {% else%}
           {% for r in recents %}          
