@@ -14,8 +14,7 @@ exports.index = function (req, res){
 	var recents = aweCookie? JSON.parse(aweCookie) : [];
   res.render('index', {
     title: 'Home',
-    recents: recents,
-    groups: db('groups').where()
+    recents: recents
   });
 };
 
