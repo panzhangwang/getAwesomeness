@@ -446,6 +446,489 @@
       "file": "README.md",
       "start": 3,
       "end": 11
+    },
+    {
+      "key": "go",
+      "repo": "/avelino/awesome-go",
+      "file": "README.md",
+      "start": 8,
+      "end": 57
+    },
+    {
+      "key": "perl",
+      "repo": "/hachiojipm/awesome-perl",
+      "file": "README.md",
+      "start": 13,
+      "end": 24
+    },
+    {
+      "key": "rust",
+      "repo": "/kud1ing/awesome-rust",
+      "file": "README.md",
+      "start": 4,
+      "end": 26
+    },
+    {
+      "key": "net",
+      "repo": "/quozd/awesome-dotnet",
+      "file": "README.md",
+      "start": 10,
+      "end": 57
+    },
+    {
+      "key": "python",
+      "repo": "/kirang89/pycrumbs",
+      "file": "pycrumbs.md",
+      "start": 0,
+      "end": 71
+    },
+    {
+      "key": "ruby",
+      "repo": "/markets/awesome-ruby",
+      "file": "README.md",
+      "start": 12,
+      "end": 82
+    },
+    {
+      "key": "swift",
+      "repo": "/matteocrippa/awesome-swift",
+      "file": "README.md",
+      "start": 7,
+      "end": 30
+    },
+    {
+      "key": "groovy",
+      "repo": "/kdabir/awesome-groovy",
+      "file": "README.md",
+      "start": 6,
+      "end": 16
+    },
+    {
+      "key": "js",
+      "repo": "/sorrycc/awesome-javascript",
+      "file": "README.md",
+      "start": 4,
+      "end": 55
+    },
+    {
+      "key": "shell",
+      "repo": "/alebcay/awesome-shell",
+      "file": "README.md",
+      "start": 2,
+      "end": 10
+    },
+    {
+      "key": "lua",
+      "repo": "/LewisJEllis/awesome-lua",
+      "file": "README.md",
+      "start": 7,
+      "end": 43
+    },
+    {
+      "key": "php",
+      "repo": "/ziadoz/awesome-php",
+      "file": "README.md",
+      "start": 6,
+      "end": 71
+    },
+    {
+      "key": "cakephp",
+      "repo": "/FriendsOfCake/awesome-cakephp",
+      "file": "README.md",
+      "start": 16,
+      "end": 50
+    },
+    {
+      "key": "laravel",
+      "repo": "/timothydjones/awesome-laravel",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "java",
+      "repo": "/akullpp/awesome-java",
+      "file": "README.md",
+      "start": 4,
+      "end": 46
+    },
+    {
+      "key": "scala",
+      "repo": "/lauris/awesome-scala",
+      "file": "README.md",
+      "start": 5,
+      "end": 20
+    },
+    {
+      "key": "r",
+      "repo": "/qinwf/awesome-R",
+      "file": "README.md",
+      "start": 4,
+      "end": 23
+    },
+    {
+      "key": "clojure",
+      "repo": "/razum2um/awesome-clojure",
+      "file": "README.md",
+      "start": 2,
+      "end": 37
+    },
+    {
+      "key": "elixir",
+      "repo": "/h4cc/awesome-elixir",
+      "file": "README.md",
+      "start": 3,
+      "end": 57
+    },
+    {
+      "key": "ocaml",
+      "repo": "/rizo/awesome-ocaml",
+      "file": "README.md",
+      "start": 3,
+      "end": 45
+    },
+    {
+      "key": "haskell",
+      "repo": "/krispo/awesome-haskell",
+      "file": "README.md",
+      "start": 5,
+      "end": 37
+    },
+    {
+      "key": "erlang",
+      "repo": "/drobakowski/awesome-erlang",
+      "file": "README.md",
+      "start": 3,
+      "end": 34
+    },
+    {
+      "key": "erlang_bm",
+      "repo": "/0xAX/erlang-bookmarks",
+      "file": "ErlangBookmarks.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "angularjs",
+      "repo": "/gianarb/awesome-angularjs",
+      "file": "README.md",
+      "start": 3,
+      "end": 18
+    },
+    {
+      "key": "backbone",
+      "repo": "/instanceofpro/awesome-backbone",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "dojo",
+      "repo": "/peterkokot/awesome-dojo",
+      "file": "README.md",
+      "start": 11,
+      "end": 13
+    },
+    {
+      "key": "knockout",
+      "repo": "/peterkokot/awesome-knockout",
+      "file": "readme.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "nodejs",
+      "repo": "/sindresorhus/awesome-nodejs",
+      "file": "readme.md",
+      "start": 7,
+      "end": 45
+    },
+    {
+      "key": "react",
+      "repo": "/enaqx/awesome-react",
+      "file": "README.md",
+      "start": 4,
+      "end": 47
+    },
+    {
+      "key": "webcomponents",
+      "repo": "/mateusortiz/webcomponents-the-right-way",
+      "file": "README.md",
+      "start": 4,
+      "end": 19
+    },
+    {
+      "key": "android",
+      "repo": "/JStumpp/awesome-android",
+      "file": "readme.md",
+      "start": 5,
+      "end": 31
+    },
+    {
+      "key": "apple",
+      "repo": "/joeljfischer/awesome-apple",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "ios",
+      "repo": "/vsouza/awesome-ios",
+      "file": "README.md",
+      "start": 5,
+      "end": 44
+    },
+    {
+      "key": "cordova",
+      "repo": "/busterc/awesome-cordova",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "docs",
+      "repo": "/PharkMillups/beautiful-docs",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "svg",
+      "repo": "/willianjusten/awesome-svg",
+      "file": "readme.md",
+      "start": 4,
+      "end": 27
+    },
+    {
+      "key": "images",
+      "repo": "/heyalexej/awesome-images",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "front_dev",
+      "repo": "/dypsilon/frontend-dev-bookmarks",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "h5",
+      "repo": "/diegocard/awesome-html5",
+      "file": "README.md",
+      "start": 5,
+      "end": 39
+    },
+    {
+      "key": "docker",
+      "repo": "/veggiemonk/awesome-docker",
+      "file": "README.md",
+      "start": 15,
+      "end": 33
+    },
+    {
+      "key": "gamedev",
+      "repo": "/ellisonleao/magictools",
+      "file": "README.md",
+      "start": 2,
+      "end": 31
+    },
+    {
+      "key": "openresty",
+      "repo": "/bungle/awesome-resty",
+      "file": "README.md",
+      "start": 10,
+      "end": 30
+    },
+    {
+      "key": "servicesengineering",
+      "repo": "/mmcgrana/services-engineering",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "sysadmin",
+      "repo": "/kahun/awesome-sysadmin",
+      "file": "README.md",
+      "start": 3,
+      "end": 49
+    },
+    {
+      "key": "julia",
+      "repo": "/svaksha/Julia.jl",
+      "file": "README.md",
+      "start": 2,
+      "end": 4
+    },
+    {
+      "key": "sublime",
+      "repo": "/dreikanter/sublime-bookmarks",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "vim",
+      "repo": "/akrawchyk/awesome-vim",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "algorithm",
+      "repo": "/tayllan/awesome-algorithms",
+      "file": "README.md",
+      "start": 5,
+      "end": 7
+    },
+    {
+      "key": "conferences",
+      "repo": "/RichardLitt/awesome-conferences",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "testbook",
+      "repo": "/ligurio/free-software-testing-books",
+      "file": "free-software-testing-books.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "koans",
+      "repo": "/ahmdrefat/awesome-koans",
+      "file": "koans-en.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "openscience",
+      "repo": "/silky/awesome-open-science",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "papers",
+      "repo": "/papers-we-love/papers-we-love",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "talks",
+      "repo": "/JanVanRyswyck/awesome-talks",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "analytics",
+      "repo": "/onurakpolat/awesome-analytics",
+      "file": "README.md",
+      "start": 6,
+      "end": 10
+    },
+    {
+      "key": "db",
+      "repo": "/numetriclabz/awesome-db",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "datascience",
+      "repo": "/okulbilisim/awesome-datascience",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "dataset",
+      "repo": "/caesar0301/awesome-public-datasets",
+      "file": "README.rst",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "ml",
+      "repo": "/josephmisiti/awesome-machine-learning",
+      "file": "README.md",
+      "start": 7,
+      "end": 76
+    },
+    {
+      "key": "hadoop",
+      "repo": "/youngwookim/awesome-hadoop",
+      "file": "README.md",
+      "start": 4,
+      "end": 22
+    },
+    {
+      "key": "tools",
+      "repo": "/cjbarber/ToolsOfTheTrade",
+      "file": "README.md",
+      "start": 1,
+      "end": 88
+    },
+    {
+      "key": "dotfiles",
+      "repo": "/webpro/awesome-dotfiles",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "devenv",
+      "repo": "/jondot/awesome-devenv",
+      "file": "README.md",
+      "start": 19,
+      "end": 20
+    },
+    {
+      "key": "ccm",
+      "repo": "/shime/creative-commons-media",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "ciandcd",
+      "repo": "/itech001/ciandcd",
+      "file": "README.md",
+      "start": 11,
+      "end": 25
+    },
+    {
+      "key": "styleguide",
+      "repo": "/RichardLitt/awesome-styleguides",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "nlp",
+      "repo": "/edobashira/speech-language-processing",
+      "file": "README.rst",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "vagrant",
+      "repo": "/iJackUA/awesome-vagrant",
+      "file": "README.md",
+      "start": -1,
+      "end": 1
+    },
+    {
+      "key": "wpo",
+      "repo": "/davidsonfellipe/awesome-wpo",
+      "file": "README.md",
+      "start": 4,
+      "end": 32
     }
   ]
 }
