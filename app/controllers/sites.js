@@ -2,8 +2,7 @@ var cache = require('memory-cache');
 var request = require('request');
 var CronJob = require('cron').CronJob;
 var _ = require('lodash');
-var utils = require('../../lib/utils');
-var awes = utils.awes();
+
 var low = require('lowdb');
 var db = low('db.json');
 

@@ -3,28 +3,16 @@
 {% block content %}	
 	<div class="row">
 		<div class="col-md-2">
-			{% if activeAwe %}		
-				{% if keys.length %}
-	        <div class="list-group">
-	          {% for key in keys %}
-	            <a class="list-group-item" href="{{ '/lists/' + activeAwe + '/get/' + key }}">{{ getAwesomeName(key) }}</a>
-	          {% endfor %}
-	        </div>
-	      {% endif %}
-			{% else %}
-				
-				{% for g in groups %}     		  
-      		<div class="panel panel-info">
-            <div class="panel-heading">{{ g.title }}</div>
-            <div class="list-group">
-              {% for it in g.items %}
-                <a class="list-group-item {% if (awe == it.key) %}active{% endif %}" href="{{ '/get/' + it.key }}">{{ it.name }}</a>
-              {% endfor %}
-            </div>
-          </div>          
-        {% endfor %}
-
-			{% endif %}
+			{% for g in groups %}     		  
+    		<div class="panel panel-info">
+          <div class="panel-heading">{{ g.title }}</div>
+          <div class="list-group">
+            {% for it in g.items %}
+              <a class="list-group-item {% if (awe == it.key) %}active{% endif %}" href="{{ '/get/' + it.key }}">{{ it.name }}</a>
+            {% endfor %}
+          </div>
+        </div>          
+      {% endfor %}
 		</div>
 		<div class="col-md-7">
 			<a href="{{ 'https://github.com' + repo }}" class="btn btn-default pull-right" target="_blank">View on Github</a>	
