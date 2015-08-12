@@ -38,6 +38,7 @@
     "request": "latest",
     "memory-cache": "latest",
     "lodash": "latest",
+    "lowdb": "^0.10.2",
     "mongoose": "^4.1.2"
   },
   "devDependencies": {

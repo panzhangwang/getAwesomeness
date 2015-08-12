@@ -30,6 +30,14 @@
       		</ul>
       		
       	</div>
+        {% for group in groups %}
+          <h3>{{ group.title }}</h3>
+          {% for item in group.items %}
+            <p>{{ item.name }}</p>
+            <p>{{ item.repo }}</p>
+
+          {% endfor %}  
+        {% endfor %}
       </div>
 		</div>
   </div>

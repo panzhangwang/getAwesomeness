@@ -1,0 +1,54 @@
+{
+  "groups": [
+    {
+      "title": "General",
+      "items": [
+        {
+          "key": "Go",
+          "name": "Go"
+        }
+      ]
+    },
+    {
+      "title": "General",
+      "items": [
+        {
+          "key": "Go",
+          "name": "Go"
+        }
+      ]
+    },
+    {
+      "title": "General",
+      "items": [
+        {
+          "key": "Go",
+          "name": "Go"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "key": "Go",
+      "repo": "/avelino/awesome-go",
+      "file": "README.md",
+      "start": 8,
+      "end": 57
+    },
+    {
+      "key": "Go",
+      "repo": "/avelino/awesome-go",
+      "file": "README.md",
+      "start": 8,
+      "end": 57
+    },
+    {
+      "key": "Go",
+      "repo": "/avelino/awesome-go",
+      "file": "README.md",
+      "start": 8,
+      "end": 57
+    }
+  ]
+}

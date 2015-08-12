@@ -4,14 +4,18 @@ var CronJob = require('cron').CronJob;
 var _ = require('lodash');
 var utils = require('../../lib/utils');
 var awes = utils.awes();
+var low = require('lowdb');
+var db = low('db.json');
 
 
 exports.index = function (req, res){
+
 	var aweCookie = req.cookies.aweCookie;
 	var recents = aweCookie? JSON.parse(aweCookie) : [];
   res.render('index', {
     title: 'Home',
-    recents: recents
+    recents: recents,
+    groups: db('groups').where()
   });
 };
 
