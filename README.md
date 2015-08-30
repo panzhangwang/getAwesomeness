@@ -25,10 +25,24 @@ $ npm start
 Then visit [http://localhost:3000/](http://localhost:3000/)
 
 
-## Steps to contribute a new awesome list
+## One step to add a new list
 
-1. Open file lib/utils.js. Follow some comments, it is simple to add a new one.
-2. Optional. Open file includes/left.html, add a link on the left sidebar.
+Open db.json, add new list as following .
+```json
+  // create a group or add your list to an existing group under 'groups'
+  {
+    "key": "c",
+    "name": "C"
+  }
+  // add your list under 'items'
+  {
+      "key": "c",
+      "name": "/aleksandar-todorovic/awesome-c",
+      "file": "README.md",
+      "start": -1, // if no table of contents
+      "end": 1
+  }
+```
 
 
 ## License
