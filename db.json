@@ -100,6 +100,10 @@
         {
           "key": "laravel",
           "name": "Laravel Framework"
+        },
+        {
+          "key": "symfony",
+          "name": "Symfony"
         }
       ]
     },
@@ -544,6 +548,13 @@
       "file": "README.md",
       "start": -1,
       "end": 1
+    },
+    {
+      "key": "symfony",
+      "name": "/EmanueleMinotto/awesome-symfony2",
+      "file": "README.md",
+      "start": 3,
+      "end": 20
     },
     {
       "key": "java",
