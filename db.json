@@ -383,6 +383,10 @@
           "name": "Continuous Delivery"
         },
         {
+          "key": "community",
+          "name": "Community"
+        },
+        {
           "key": "styleguide",
           "name": "Styleguides"
         },
@@ -912,6 +916,13 @@
       "file": "README.md",
       "start": 11,
       "end": 25
+    },
+    {
+      "key": "community",
+      "name": "/peterkokot/awesome-community",
+      "file": "README.md",
+      "start": 7,
+      "end": 55
     },
     {
       "key": "styleguide",
