@@ -17,7 +17,7 @@
           </li>
         {% else%}
           {% for r in recents %}          
-            <li class="{% if (r == awe) %}active{% endif %}"><a href="{{ '/get/' + r }}">{{ getAwesomeName(r) }}</a></li>           
+            <li class="{% if (r == awe) %}active{% endif %}"><a href="{{ '/get/' + r }}">{{ r }}</a></li>           
           {% endfor %}
         {% endif %}
       </ul>
