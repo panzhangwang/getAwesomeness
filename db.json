@@ -322,6 +322,10 @@
         {
           "key": "talks",
           "name": "Talks"
+        },
+        {
+          "key": "weekly",
+          "name": "Weekly Newsletters"
         }
       ]
     },
@@ -789,6 +793,11 @@
     {
       "key": "vagrant",
       "name": "/iJackUA/awesome-vagrant",
+      "file": "README.md"
+    },
+    {
+      "key": "weekly",
+      "name": "/jondot/awesome-weekly",
       "file": "README.md"
     },
     {
