@@ -38,9 +38,7 @@ Open db.json, add new list as following .
   {
       "key": "c",
       "name": "/aleksandar-todorovic/awesome-c",
-      "file": "README.md",
-      "start": -1, // if no table of contents
-      "end": 1
+      "file": "README.md"
   }
 ```
 

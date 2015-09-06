@@ -409,548 +409,392 @@
     {
       "key": "cpp",
       "name": "/fffaraz/awesome-cpp",
-      "file": "README.md",
-      "start": 3,
-      "end": 51
+      "file": "README.md"
     },
     {
       "key": "c",
       "name": "/aleksandar-todorovic/awesome-c",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "autohotkey",
       "name": "/ahkscript/awesome-AutoHotkey",
-      "file": "README.md",
-      "start": 4,
-      "end": 34
+      "file": "README.md"
     },
     {
       "key": "coldfusion",
       "name": "/seancoyne/awesome-coldfusion",
-      "file": "README.md",
-      "start": 4,
-      "end": 17
+      "file": "README.md"
     },
     {
       "key": "d",
       "name": "/zhaopuming/awesome-d",
-      "file": "README.md",
-      "start": 10,
-      "end": 41
+      "file": "README.md"
     },
     {
       "key": "delphi",
       "name": "/Fr0sT-Brutal/awesome-delphi",
-      "file": "README.md",
-      "start": 6,
-      "end": 23
+      "file": "README.md"
     },
     {
       "key": "fortran",
       "name": "/rabbiabram/awesome-fortran",
-      "file": "README.md",
-      "start": 3,
-      "end": 11
+      "file": "README.md"
     },
     {
       "key": "go",
       "name": "/avelino/awesome-go",
-      "file": "README.md",
-      "start": 8,
-      "end": 57
+      "file": "README.md"
     },
     {
       "key": "perl",
       "name": "/hachiojipm/awesome-perl",
-      "file": "README.md",
-      "start": 13,
-      "end": 24
+      "file": "README.md"
     },
     {
       "key": "rust",
       "name": "/kud1ing/awesome-rust",
-      "file": "README.md",
-      "start": 4,
-      "end": 26
+      "file": "README.md"
     },
     {
       "key": "net",
       "name": "/quozd/awesome-dotnet",
-      "file": "README.md",
-      "start": 10,
-      "end": 57
+      "file": "README.md"
     },
     {
       "key": "python",
       "name": "/kirang89/pycrumbs",
-      "file": "pycrumbs.md",
-      "start": 0,
-      "end": 71
+      "file": "pycrumbs.md"
     },
     {
       "key": "ruby",
       "name": "/markets/awesome-ruby",
-      "file": "README.md",
-      "start": 12,
-      "end": 82
+      "file": "README.md"
     },
     {
       "key": "swift",
       "name": "/matteocrippa/awesome-swift",
-      "file": "README.md",
-      "start": 7,
-      "end": 30
+      "file": "README.md"
     },
     {
       "key": "groovy",
       "name": "/kdabir/awesome-groovy",
-      "file": "README.md",
-      "start": 6,
-      "end": 16
+      "file": "README.md"
     },
     {
       "key": "js",
       "name": "/sorrycc/awesome-javascript",
-      "file": "README.md",
-      "start": 4,
-      "end": 55
+      "file": "README.md"
     },
     {
       "key": "shell",
       "name": "/alebcay/awesome-shell",
-      "file": "README.md",
-      "start": 2,
-      "end": 10
+      "file": "README.md"
     },
     {
       "key": "lua",
       "name": "/LewisJEllis/awesome-lua",
-      "file": "README.md",
-      "start": 7,
-      "end": 43
+      "file": "README.md"
     },
     {
       "key": "php",
       "name": "/ziadoz/awesome-php",
-      "file": "README.md",
-      "start": 6,
-      "end": 71
+      "file": "README.md"
     },
     {
       "key": "cakephp",
       "name": "/FriendsOfCake/awesome-cakephp",
-      "file": "README.md",
-      "start": 16,
-      "end": 50
+      "file": "README.md"
     },
     {
       "key": "laravel",
       "name": "/timothydjones/awesome-laravel",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "symfony",
       "name": "/EmanueleMinotto/awesome-symfony2",
-      "file": "README.md",
-      "start": 3,
-      "end": 20
+      "file": "README.md"
     },
     {
       "key": "java",
       "name": "/akullpp/awesome-java",
-      "file": "README.md",
-      "start": 4,
-      "end": 56
+      "file": "README.md"
     },
     {
       "key": "scala",
       "name": "/lauris/awesome-scala",
-      "file": "README.md",
-      "start": 5,
-      "end": 20
+      "file": "README.md"
     },
     {
       "key": "r",
       "name": "/qinwf/awesome-R",
-      "file": "README.md",
-      "start": 4,
-      "end": 23
+      "file": "README.md"
     },
     {
       "key": "clojure",
       "name": "/razum2um/awesome-clojure",
-      "file": "README.md",
-      "start": 2,
-      "end": 37
+      "file": "README.md"
     },
     {
       "key": "elixir",
       "name": "/h4cc/awesome-elixir",
-      "file": "README.md",
-      "start": 3,
-      "end": 57
+      "file": "README.md"
     },
     {
       "key": "ocaml",
       "name": "/rizo/awesome-ocaml",
-      "file": "README.md",
-      "start": 3,
-      "end": 45
+      "file": "README.md"
     },
     {
       "key": "haskell",
       "name": "/krispo/awesome-haskell",
-      "file": "README.md",
-      "start": 5,
-      "end": 37
+      "file": "README.md"
     },
     {
       "key": "erlang",
       "name": "/drobakowski/awesome-erlang",
-      "file": "README.md",
-      "start": 3,
-      "end": 34
+      "file": "README.md"
     },
     {
       "key": "erlang_bm",
       "name": "/0xAX/erlang-bookmarks",
-      "file": "ErlangBookmarks.md",
-      "start": -1,
-      "end": 1
+      "file": "ErlangBookmarks.md"
     },
     {
       "key": "angularjs",
       "name": "/gianarb/awesome-angularjs",
-      "file": "README.md",
-      "start": 3,
-      "end": 18
+      "file": "README.md"
     },
     {
       "key": "backbone",
       "name": "/instanceofpro/awesome-backbone",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "dojo",
       "name": "/peterkokot/awesome-dojo",
-      "file": "README.md",
-      "start": 11,
-      "end": 13
+      "file": "README.md"
     },
     {
       "key": "knockout",
       "name": "/peterkokot/awesome-knockout",
-      "file": "readme.md",
-      "start": -1,
-      "end": 1
+      "file": "readme.md"
     },
     {
       "key": "nodejs",
       "name": "/sindresorhus/awesome-nodejs",
-      "file": "readme.md",
-      "start": 7,
-      "end": 45
+      "file": "readme.md"
     },
     {
       "key": "react",
       "name": "/enaqx/awesome-react",
-      "file": "README.md",
-      "start": 4,
-      "end": 47
+      "file": "README.md"
     },
     {
       "key": "webcomponents",
       "name": "/mateusortiz/webcomponents-the-right-way",
-      "file": "README.md",
-      "start": 4,
-      "end": 19
+      "file": "README.md"
     },
     {
       "key": "android",
       "name": "/JStumpp/awesome-android",
-      "file": "readme.md",
-      "start": 5,
-      "end": 31
+      "file": "readme.md"
     },
     {
       "key": "apple",
       "name": "/joeljfischer/awesome-apple",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "ios",
       "name": "/vsouza/awesome-ios",
-      "file": "README.md",
-      "start": 5,
-      "end": 44
+      "file": "README.md"
     },
     {
       "key": "cordova",
       "name": "/busterc/awesome-cordova",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "docs",
       "name": "/PharkMillups/beautiful-docs",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "svg",
       "name": "/willianjusten/awesome-svg",
-      "file": "readme.md",
-      "start": 4,
-      "end": 27
+      "file": "readme.md"
     },
     {
       "key": "images",
       "name": "/heyalexej/awesome-images",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "front_dev",
       "name": "/dypsilon/frontend-dev-bookmarks",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "h5",
       "name": "/diegocard/awesome-html5",
-      "file": "README.md",
-      "start": 5,
-      "end": 39
+      "file": "README.md"
     },
     {
       "key": "docker",
       "name": "/veggiemonk/awesome-docker",
-      "file": "README.md",
-      "start": 15,
-      "end": 33
+      "file": "README.md"
     },
     {
       "key": "gamedev",
       "name": "/ellisonleao/magictools",
-      "file": "README.md",
-      "start": 2,
-      "end": 31
+      "file": "README.md"
     },
     {
       "key": "openresty",
       "name": "/bungle/awesome-resty",
-      "file": "README.md",
-      "start": 10,
-      "end": 30
+      "file": "README.md"
     },
     {
       "key": "servicesengineering",
       "name": "/mmcgrana/services-engineering",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "sysadmin",
       "name": "/kahun/awesome-sysadmin",
-      "file": "README.md",
-      "start": 3,
-      "end": 49
+      "file": "README.md"
     },
     {
       "key": "julia",
       "name": "/svaksha/Julia.jl",
-      "file": "README.md",
-      "start": 2,
-      "end": 4
+      "file": "README.md"
     },
     {
       "key": "sublime",
       "name": "/dreikanter/sublime-bookmarks",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "vim",
       "name": "/akrawchyk/awesome-vim",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "algorithm",
       "name": "/tayllan/awesome-algorithms",
-      "file": "README.md",
-      "start": 5,
-      "end": 7
+      "file": "README.md"
     },
     {
       "key": "conferences",
       "name": "/RichardLitt/awesome-conferences",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "testbook",
       "name": "/ligurio/free-software-testing-books",
-      "file": "free-software-testing-books.md",
-      "start": -1,
-      "end": 1
+      "file": "free-software-testing-books.md"
     },
     {
       "key": "koans",
       "name": "/ahmdrefat/awesome-koans",
-      "file": "koans-en.md",
-      "start": -1,
-      "end": 1
+      "file": "koans-en.md"
     },
     {
       "key": "openscience",
       "name": "/silky/awesome-open-science",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "papers",
       "name": "/papers-we-love/papers-we-love",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "talks",
       "name": "/JanVanRyswyck/awesome-talks",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "analytics",
       "name": "/onurakpolat/awesome-analytics",
-      "file": "README.md",
-      "start": 6,
-      "end": 10
+      "file": "README.md"
     },
     {
       "key": "db",
       "name": "/numetriclabz/awesome-db",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "datascience",
       "name": "/okulbilisim/awesome-datascience",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "dataset",
       "name": "/caesar0301/awesome-public-datasets",
-      "file": "README.rst",
-      "start": -1,
-      "end": 1
+      "file": "README.rst"
     },
     {
       "key": "ml",
       "name": "/josephmisiti/awesome-machine-learning",
-      "file": "README.md",
-      "start": 7,
-      "end": 76
+      "file": "README.md"
     },
     {
       "key": "hadoop",
       "name": "/youngwookim/awesome-hadoop",
-      "file": "README.md",
-      "start": 4,
-      "end": 22
+      "file": "README.md"
     },
     {
       "key": "tools",
       "name": "/cjbarber/ToolsOfTheTrade",
-      "file": "README.md",
-      "start": 1,
-      "end": 88
+      "file": "README.md"
     },
     {
       "key": "dotfiles",
       "name": "/webpro/awesome-dotfiles",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "devenv",
       "name": "/jondot/awesome-devenv",
-      "file": "README.md",
-      "start": 19,
-      "end": 20
+      "file": "README.md"
     },
     {
       "key": "ccm",
       "name": "/shime/creative-commons-media",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "ciandcd",
       "name": "/itech001/ciandcd",
-      "file": "README.md",
-      "start": 11,
-      "end": 25
+      "file": "README.md"
     },
     {
       "key": "community",
       "name": "/peterkokot/awesome-community",
-      "file": "README.md",
-      "start": 7,
-      "end": 55
+      "file": "README.md"
     },
     {
       "key": "styleguide",
       "name": "/RichardLitt/awesome-styleguides",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "nlp",
       "name": "/edobashira/speech-language-processing",
-      "file": "README.rst",
-      "start": -1,
-      "end": 1
+      "file": "README.rst"
     },
     {
       "key": "vagrant",
       "name": "/iJackUA/awesome-vagrant",
-      "file": "README.md",
-      "start": -1,
-      "end": 1
+      "file": "README.md"
     },
     {
       "key": "wpo",
       "name": "/davidsonfellipe/awesome-wpo",
-      "file": "README.md",
-      "start": 4,
-      "end": 32
+      "file": "README.md"
     }
   ]
 }

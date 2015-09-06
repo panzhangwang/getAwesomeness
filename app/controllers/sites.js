@@ -82,20 +82,20 @@ exports.get = function (req, res){
 
   request(url, function (error, response, body) {   
     if (!error && response.statusCode == 200) {
-      article = cacheGit(awe, found.start, found.end, body);
+      cache.put(awe, body );
       
       // fire up a cron job to load update from github every 12 hours.
       new CronJob('* * */12 * * *', function(){
         request(url, function (error, response, body) {
           if (!error && response.statusCode == 200) {
-            cacheGit(awe, found.start, found.end, body);
+            cache.put(awe, body );
           }
         });
       }, null, true, null);
 
       return res.render('get', {        
         title: found.name,
-        article: article,
+        article: body,
         recents: recents,
         groups: db('groups').where({}),
         repo: found.name,
@@ -108,14 +108,3 @@ exports.get = function (req, res){
     }
   });
 };
-
-function cacheGit(key, tocStart, tocEnd, body) {
-  var content;
-  var arr = body.split('\n');
-  // remove github toc.
-  arr.splice(tocStart, tocEnd);
-  content = arr.join('\n');
-  cache.put(key, content );
-
-  return content;
-}
