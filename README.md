@@ -24,21 +24,28 @@ $ npm start
 Then visit [http://localhost:3000/](http://localhost:3000/)
 
 
-## One step to add a new list
+## Steps to add a new list
 
-Open db.json, add new list as following .
-```json
-  // create a group or add your list to an existing group under 'groups'
-  {
-    "key": "c",
-    "name": "C"
-  }
-  // add your list under 'items'
-  {
-      "key": "c",
-      "name": "/aleksandar-todorovic/awesome-c",
+1. Open db.json, add a new definition under defs.
+```js
+	{
+      "key": "java",
+      "lbl": "Java",
+      "name": "/akullpp/awesome-java",
       "file": "README.md"
-  }
+    }
+```
+file atrribute is optional, by default it is README.md.
+
+2. Register the key of the list under groups.
+```js
+	{
+      "title": "JVM",
+      "items": [
+        "java",
+        "scala"
+      ]
+    }
 ```
 
 

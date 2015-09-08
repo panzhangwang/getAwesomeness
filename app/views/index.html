@@ -14,7 +14,7 @@
               <div class="panel-heading">{{ g.title }}</div>
               <div class="list-group">
                 {% for it in g.items %}
-                  <a class="list-group-item" href="{{ '/get/' + it.key }}">{{ it.name }}</a>
+                  <a class="list-group-item" href="{{ '/get/' + it }}">{{ label(it) }}</a>
                 {% endfor %}
               </div>
             </div>

@@ -3,814 +3,644 @@
     {
       "title": "General",
       "items": [
-        {
-          "key": "c",
-          "name": "C"
-        },
-        {
-          "key": "cpp",
-          "name": "C/C++"
-        },
-        {
-          "key": "d",
-          "name": "D"
-        },
-        {
-          "key": "delphi",
-          "name": "Delphi"
-        },
-        {
-          "key": "fortran",
-          "name": "Fortran"
-        },
-        {
-          "key": "go",
-          "name": "Go"
-        },
-        {
-          "key": "perl",
-          "name": "Perl"
-        },
-        {
-          "key": "rust",
-          "name": "Rust"
-        },
-        {
-          "key": "net",
-          "name": ".NET"
-        },
-        {
-          "key": "python",
-          "name": "Python"
-        },
-        {
-          "key": "ruby",
-          "name": "Ruby"
-        },
-        {
-          "key": "swift",
-          "name": "Swift"
-        }
+        "c",
+        "cpp",
+        "d",
+        "delphi",
+        "fortran",
+        "go",
+        "perl",
+        "rust",
+        "net",
+        "python",
+        "ruby",
+        "swift"
       ]
     },
     {
       "title": "Scripting",
       "items": [
-        {
-          "key": "autohotkey",
-          "name": "AutoHotkey"
-        },
-        {
-          "key": "coldfusion",
-          "name": "ColdFusion"
-        },
-        {
-          "key": "groovy",
-          "name": "Groovy"
-        },
-        {
-          "key": "js",
-          "name": "JavaScript"
-        },
-        {
-          "key": "shell",
-          "name": "Shell"
-        },
-        {
-          "key": "lua",
-          "name": "Lua"
-        },
-        {
-          "key": "perl",
-          "name": "Perl"
-        },
-        {
-          "key": "php",
-          "name": "PHP"
-        }
+        "autohotkey",
+        "coldfusion",
+        "groovy",
+        "js",
+        "shell",
+        "lua",
+        "perl",
+        "php"
       ]
     },
     {
       "title": "Web Framework",
       "items": [
-        {
-          "key": "cakephp",
-          "name": "CakePHP"
-        },
-        {
-          "key": "laravel",
-          "name": "Laravel Framework"
-        },
-        {
-          "key": "symfony",
-          "name": "Symfony"
-        }
+        "cakephp",
+        "laravel",
+        "symfony"
       ]
     },
     {
       "title": "JVM",
       "items": [
-        {
-          "key": "java",
-          "name": "Java"
-        },
-        {
-          "key": "scala",
-          "name": "Scala"
-        }
+        "java",
+        "scala"
       ]
     },
     {
       "title": "Domain Specific",
       "items": [
-        {
-          "key": "r",
-          "name": "R"
-        }
+        "r"
       ]
     },
     {
       "title": "Functional",
       "items": [
-        {
-          "key": "clojure",
-          "name": "Clojure"
-        },
-        {
-          "key": "elixir",
-          "name": "Elixir"
-        },
-        {
-          "key": "ocaml",
-          "name": "OCaml"
-        },
-        {
-          "key": "haskell",
-          "name": "Haskell"
-        },
-        {
-          "key": "erlang",
-          "name": "Erlang"
-        },
-        {
-          "key": "erlang_bm",
-          "name": "Erlang Bookmarks"
-        }
+        "clojure",
+        "elixir",
+        "ocaml",
+        "haskell",
+        "erlang",
+        "erlang_bm"
       ]
     },
     {
       "title": "Web",
       "items": [
-        {
-          "key": "angularjs",
-          "name": "AngularJS"
-        },
-        {
-          "key": "backbone",
-          "name": "Backbone"
-        },
-        {
-          "key": "dojo",
-          "name": "Dojo"
-        },
-        {
-          "key": "jquery",
-          "name": "jQuery"
-        },
-        {
-          "key": "knockout",
-          "name": "Knockout"
-        },
-        {
-          "key": "nodejs",
-          "name": "Node.js"
-        },
-        {
-          "key": "php",
-          "name": "PHP"
-        },
-        {
-          "key": "react",
-          "name": "React"
-        },
-        {
-          "key": "webcomponents",
-          "name": "Web Components"
-        }
+        "angularjs",
+        "backbone",
+        "dojo",
+        "jquery",
+        "knockout",
+        "nodejs",
+        "php",
+        "react",
+        "webcomponents"
       ]
     },
     {
       "title": "Mobile",
       "items": [
-        {
-          "key": "android",
-          "name": "Android"
-        },
-        {
-          "key": "apple",
-          "name": "Apple"
-        },
-        {
-          "key": "ios",
-          "name": "iOS"
-        },
-        {
-          "key": "cordova",
-          "name": "Cordova"
-        }
+        "android",
+        "apple",
+        "ios",
+        "cordova"
       ]
     },
     {
       "title": "FrontEnd",
       "items": [
-        {
-          "key": "docs",
-          "name": "Documentation"
-        },
-        {
-          "key": "svg",
-          "name": "SVG"
-        },
-        {
-          "key": "images",
-          "name": "Images"
-        },
-        {
-          "key": "front_dev",
-          "name": "Frontend Development"
-        },
-        {
-          "key": "h5",
-          "name": "HTML5"
-        }
+        "docs",
+        "svg",
+        "images",
+        "front_dev",
+        "h5"
       ]
     },
     {
       "title": "Backend",
       "items": [
-        {
-          "key": "docker",
-          "name": "Docker"
-        },
-        {
-          "key": "gamedev",
-          "name": "Game Development"
-        },
-        {
-          "key": "openresty",
-          "name": "OpenResty"
-        },
-        {
-          "key": "servicesengineering",
-          "name": "Services Engineering"
-        },
-        {
-          "key": "sysadmin",
-          "name": "Sysadmin"
-        }
+        "docker",
+        "gamedev",
+        "openresty",
+        "servicesengineering",
+        "sysadmin"
       ]
     },
     {
       "title": "Danymic",
       "items": [
-        {
-          "key": "clojure",
-          "name": "Clojure"
-        },
-        {
-          "key": "julia",
-          "name": "Julia"
-        }
+        "clojure",
+        "julia"
       ]
     },
     {
       "title": "Editors",
       "items": [
-        {
-          "key": "sublime",
-          "name": "Sublime Text"
-        },
-        {
-          "key": "vim",
-          "name": "Vim"
-        }
+        "sublime",
+        "vim"
       ]
     },
     {
       "title": "Self Education",
       "items": [
-        {
-          "key": "algorithm",
-          "name": "Algorithm"
-        },
-        {
-          "key": "conferences",
-          "name": "Conferences"
-        },
-        {
-          "key": "testbook",
-          "name": "Testing Books"
-        },
-        {
-          "key": "koans",
-          "name": "Koans"
-        },
-        {
-          "key": "openscience",
-          "name": "Open Science"
-        },
-        {
-          "key": "papers",
-          "name": "Papers"
-        },
-        {
-          "key": "talks",
-          "name": "Talks"
-        },
-        {
-          "key": "weekly",
-          "name": "Weekly Newsletters"
-        }
+        "algorithm",
+        "conferences",
+        "testbook",
+        "koans",
+        "openscience",
+        "papers",
+        "talks",
+        "weekly"
       ]
     },
     {
       "title": "Data",
       "items": [
-        {
-          "key": "analytics",
-          "name": "Analytics"
-        },
-        {
-          "key": "db",
-          "name": "Database"
-        },
-        {
-          "key": "datascience",
-          "name": "Data Science"
-        },
-        {
-          "key": "dataset",
-          "name": "Dataset"
-        },
-        {
-          "key": "ml",
-          "name": "Machine Learning"
-        },
-        {
-          "key": "hadoop",
-          "name": "Hadoop"
-        }
+        "analytics",
+        "db",
+        "datascience",
+        "dataset",
+        "ml",
+        "hadoop"
       ]
     },
     {
       "title": "Dev Tools",
       "items": [
-        {
-          "key": "tools",
-          "name": "Tools of The Trade"
-        },
-        {
-          "key": "dotfiles",
-          "name": "Dotfiles"
-        },
-        {
-          "key": "devenv",
-          "name": "Dev Env"
-        }
+        "tools",
+        "dotfiles",
+        "devenv"
       ]
     },
     {
       "title": "Others",
       "items": [
-        {
-          "key": "ccm",
-          "name": "Creative Commons Media"
-        },
-        {
-          "key": "ciandcd",
-          "name": "Continuous Delivery"
-        },
-        {
-          "key": "community",
-          "name": "Community"
-        },
-        {
-          "key": "styleguide",
-          "name": "Styleguides"
-        },
-        {
-          "key": "nlp",
-          "name": "Speech and Natural Language Processing"
-        },
-        {
-          "key": "vagrant",
-          "name": "Vagrant"
-        },
-        {
-          "key": "wpo",
-          "name": "Web Performance Optimization"
-        }
+        "ccm",
+        "ciandcd",
+        "community",
+        "styleguide",
+        "nlp",
+        "vagrant",
+        "wpo"
       ]
     }
   ],
-  "items": [
+  "defs": [
     {
       "key": "cpp",
+      "lbl": "C/C++",
       "name": "/fffaraz/awesome-cpp",
       "file": "README.md"
     },
     {
       "key": "c",
+      "lbl": "C",
       "name": "/aleksandar-todorovic/awesome-c",
       "file": "README.md"
     },
     {
       "key": "autohotkey",
+      "lbl": "AutoHotkey",
       "name": "/ahkscript/awesome-AutoHotkey",
       "file": "README.md"
     },
     {
       "key": "coldfusion",
+      "lbl": "ColdFusion",
       "name": "/seancoyne/awesome-coldfusion",
       "file": "README.md"
     },
     {
       "key": "d",
+      "lbl": "D",
       "name": "/zhaopuming/awesome-d",
       "file": "README.md"
     },
     {
       "key": "delphi",
+      "lbl": "Delphi",
       "name": "/Fr0sT-Brutal/awesome-delphi",
       "file": "README.md"
     },
     {
       "key": "fortran",
+      "lbl": "Fortran",
       "name": "/rabbiabram/awesome-fortran",
       "file": "README.md"
     },
     {
       "key": "go",
+      "lbl": "Go",
       "name": "/avelino/awesome-go",
       "file": "README.md"
     },
     {
       "key": "perl",
+      "lbl": "Perl",
       "name": "/hachiojipm/awesome-perl",
       "file": "README.md"
     },
     {
       "key": "rust",
+      "lbl": "Rust",
       "name": "/kud1ing/awesome-rust",
       "file": "README.md"
     },
     {
       "key": "net",
+      "lbl": ".Net",
       "name": "/quozd/awesome-dotnet",
       "file": "README.md"
     },
     {
       "key": "python",
+      "lbl": "Python",
       "name": "/kirang89/pycrumbs",
       "file": "pycrumbs.md"
     },
     {
       "key": "ruby",
+      "lbl": "Ruby",
       "name": "/markets/awesome-ruby",
       "file": "README.md"
     },
     {
       "key": "swift",
+      "lbl": "Swift",
       "name": "/matteocrippa/awesome-swift",
       "file": "README.md"
     },
     {
       "key": "groovy",
+      "lbl": "Groovy",
       "name": "/kdabir/awesome-groovy",
       "file": "README.md"
     },
     {
       "key": "js",
+      "lbl": "JavaScript",
       "name": "/sorrycc/awesome-javascript",
       "file": "README.md"
     },
     {
       "key": "shell",
+      "lbl": "Shell",
       "name": "/alebcay/awesome-shell",
       "file": "README.md"
     },
     {
       "key": "lua",
+      "lbl": "Lua",
       "name": "/LewisJEllis/awesome-lua",
       "file": "README.md"
     },
     {
       "key": "php",
+      "lbl": "PHP",
       "name": "/ziadoz/awesome-php",
       "file": "README.md"
     },
     {
       "key": "cakephp",
+      "lbl": "CakePHP",
       "name": "/FriendsOfCake/awesome-cakephp",
       "file": "README.md"
     },
     {
       "key": "laravel",
+      "lbl": "Laravel",
       "name": "/timothydjones/awesome-laravel",
       "file": "README.md"
     },
     {
       "key": "symfony",
+      "lbl": "Symfony",
       "name": "/EmanueleMinotto/awesome-symfony2",
       "file": "README.md"
     },
     {
       "key": "java",
-      "name": "/akullpp/awesome-java",
-      "file": "README.md"
+      "lbl": "Java",
+      "name": "/akullpp/awesome-java"
     },
     {
       "key": "scala",
+      "lbl": "Scala",
       "name": "/lauris/awesome-scala",
       "file": "README.md"
     },
     {
       "key": "r",
+      "lbl": "R",
       "name": "/qinwf/awesome-R",
       "file": "README.md"
     },
     {
       "key": "clojure",
+      "lbl": "Clojure",
       "name": "/razum2um/awesome-clojure",
       "file": "README.md"
     },
     {
       "key": "elixir",
+      "lbl": "Elixir",
       "name": "/h4cc/awesome-elixir",
       "file": "README.md"
     },
     {
       "key": "ocaml",
+      "lbl": "OCaml",
       "name": "/rizo/awesome-ocaml",
       "file": "README.md"
     },
     {
       "key": "haskell",
+      "lbl": "Haskell",
       "name": "/krispo/awesome-haskell",
       "file": "README.md"
     },
     {
       "key": "erlang",
+      "lbl": "Erlang",
       "name": "/drobakowski/awesome-erlang",
       "file": "README.md"
     },
     {
       "key": "erlang_bm",
+      "lbl": "Erlang Bookmarks",
       "name": "/0xAX/erlang-bookmarks",
       "file": "ErlangBookmarks.md"
     },
     {
       "key": "angularjs",
+      "lbl": "AngularJS",
       "name": "/gianarb/awesome-angularjs",
       "file": "README.md"
     },
     {
       "key": "backbone",
+      "lbl": "Backbone",
       "name": "/instanceofpro/awesome-backbone",
       "file": "README.md"
     },
     {
       "key": "dojo",
+      "lbl": "Dojo",
       "name": "/peterkokot/awesome-dojo",
       "file": "README.md"
     },
     {
       "key": "jquery",
+      "lbl": "jQuery",
       "name": "/peterkokot/awesome-jquery",
       "file": "README.md"
     },
     {
       "key": "knockout",
+      "lbl": "Knockout",
       "name": "/peterkokot/awesome-knockout",
       "file": "readme.md"
     },
     {
       "key": "nodejs",
+      "lbl": "Node",
       "name": "/sindresorhus/awesome-nodejs",
       "file": "readme.md"
     },
     {
       "key": "react",
+      "lbl": "React",
       "name": "/enaqx/awesome-react",
       "file": "README.md"
     },
     {
       "key": "webcomponents",
+      "lbl": "Web Components",
       "name": "/mateusortiz/webcomponents-the-right-way",
       "file": "README.md"
     },
     {
       "key": "android",
+      "lbl": "Android",
       "name": "/JStumpp/awesome-android",
       "file": "readme.md"
     },
     {
       "key": "apple",
+      "lbl": "Apple",
       "name": "/joeljfischer/awesome-apple",
       "file": "README.md"
     },
     {
       "key": "ios",
+      "lbl": "iOS",
       "name": "/vsouza/awesome-ios",
       "file": "README.md"
     },
     {
       "key": "cordova",
+      "lbl": "Cordova",
       "name": "/busterc/awesome-cordova",
       "file": "README.md"
     },
     {
       "key": "docs",
+      "lbl": "Documentation",
       "name": "/PharkMillups/beautiful-docs",
       "file": "README.md"
     },
     {
       "key": "svg",
+      "lbl": "SVG",
       "name": "/willianjusten/awesome-svg",
       "file": "readme.md"
     },
     {
       "key": "images",
+      "lbl": "Images",
       "name": "/heyalexej/awesome-images",
       "file": "README.md"
     },
     {
       "key": "front_dev",
+      "lbl": "Frontend Development",
       "name": "/dypsilon/frontend-dev-bookmarks",
       "file": "README.md"
     },
     {
       "key": "h5",
+      "lbl": "HTML5",
       "name": "/diegocard/awesome-html5",
       "file": "README.md"
     },
     {
       "key": "docker",
+      "lbl": "Docker",
       "name": "/veggiemonk/awesome-docker",
       "file": "README.md"
     },
     {
       "key": "gamedev",
+      "lbl": "Game Development",
       "name": "/ellisonleao/magictools",
       "file": "README.md"
     },
     {
       "key": "openresty",
+      "lbl": "OpenResty",
       "name": "/bungle/awesome-resty",
       "file": "README.md"
     },
     {
       "key": "servicesengineering",
+      "lbl": "Services Engineering",
       "name": "/mmcgrana/services-engineering",
       "file": "README.md"
     },
     {
       "key": "sysadmin",
+      "lbl": "Sysadmin",
       "name": "/kahun/awesome-sysadmin",
       "file": "README.md"
     },
     {
       "key": "julia",
+      "lbl": "Julia",
       "name": "/svaksha/Julia.jl",
       "file": "README.md"
     },
     {
       "key": "sublime",
+      "lbl": "Sublime Text",
       "name": "/dreikanter/sublime-bookmarks",
       "file": "README.md"
     },
     {
       "key": "vim",
+      "lbl": "Vim",
       "name": "/akrawchyk/awesome-vim",
       "file": "README.md"
     },
     {
       "key": "algorithm",
+      "lbl": "Algorithm",
       "name": "/tayllan/awesome-algorithms",
       "file": "README.md"
     },
     {
       "key": "conferences",
+      "lbl": "Conferences",
       "name": "/RichardLitt/awesome-conferences",
       "file": "README.md"
     },
     {
       "key": "testbook",
+      "lbl": "Testing Books",
       "name": "/ligurio/free-software-testing-books",
       "file": "free-software-testing-books.md"
     },
     {
       "key": "koans",
+      "lbl": "Koans",
       "name": "/ahmdrefat/awesome-koans",
       "file": "koans-en.md"
     },
     {
       "key": "openscience",
+      "lbl": "Open Science",
       "name": "/silky/awesome-open-science",
       "file": "README.md"
     },
     {
       "key": "papers",
+      "lbl": "Papers",
       "name": "/papers-we-love/papers-we-love",
       "file": "README.md"
     },
     {
       "key": "talks",
+      "lbl": "Talks",
       "name": "/JanVanRyswyck/awesome-talks",
       "file": "README.md"
     },
     {
       "key": "analytics",
+      "lbl": "Analytics",
       "name": "/onurakpolat/awesome-analytics",
       "file": "README.md"
     },
     {
       "key": "db",
+      "lbl": "Database",
       "name": "/numetriclabz/awesome-db",
       "file": "README.md"
     },
     {
       "key": "datascience",
+      "lbl": "Data Science",
       "name": "/okulbilisim/awesome-datascience",
       "file": "README.md"
     },
     {
       "key": "dataset",
+      "lbl": "Dataset",
       "name": "/caesar0301/awesome-public-datasets",
       "file": "README.rst"
     },
     {
       "key": "ml",
+      "lbl": "Machine Learning",
       "name": "/josephmisiti/awesome-machine-learning",
       "file": "README.md"
     },
     {
       "key": "hadoop",
+      "lbl": "Hadoop",
       "name": "/youngwookim/awesome-hadoop",
       "file": "README.md"
     },
     {
       "key": "tools",
+      "lbl": "Tools of The Trade",
       "name": "/cjbarber/ToolsOfTheTrade",
       "file": "README.md"
     },
     {
       "key": "dotfiles",
+      "lbl": "Dotfiles",
       "name": "/webpro/awesome-dotfiles",
       "file": "README.md"
     },
     {
       "key": "devenv",
+      "lbl": "Dev Env",
       "name": "/jondot/awesome-devenv",
       "file": "README.md"
     },
     {
       "key": "ccm",
+      "lbl": "Creative Commons Media",
       "name": "/shime/creative-commons-media",
       "file": "README.md"
     },
     {
       "key": "ciandcd",
+      "lbl": "Continuous Delivery",
       "name": "/itech001/ciandcd",
       "file": "README.md"
     },
     {
       "key": "community",
+      "lbl": "Community",
       "name": "/peterkokot/awesome-community",
       "file": "README.md"
     },
     {
       "key": "styleguide",
+      "lbl": "Styleguides",
       "name": "/RichardLitt/awesome-styleguides",
       "file": "README.md"
     },
     {
       "key": "nlp",
+      "lbl": "Natural Language Processing",
       "name": "/edobashira/speech-language-processing",
       "file": "README.rst"
     },
     {
       "key": "vagrant",
+      "lbl": "Vagrant",
       "name": "/iJackUA/awesome-vagrant",
       "file": "README.md"
     },
     {
       "key": "weekly",
+      "lbl": "Weekly Newsletters",
       "name": "/jondot/awesome-weekly",
       "file": "README.md"
     },
     {
       "key": "wpo",
+      "lbl": "Web Performance Optimization",
       "name": "/davidsonfellipe/awesome-wpo",
       "file": "README.md"
     }

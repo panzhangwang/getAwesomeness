@@ -6,9 +6,9 @@
 			{% for g in groups %}     		  
     		<div class="panel panel-info">
           <div class="panel-heading">{{ g.title }}</div>
-          <div class="list-group">
+          <div class="list-group">          	
             {% for it in g.items %}
-              <a class="list-group-item {% if (awe == it.key) %}active{% endif %}" href="{{ '/get/' + it.key }}">{{ it.name }}</a>
+              <a class="list-group-item {% if (awe == it) %}active{% endif %}" href="{{ '/get/' + it }}">{{ label(it) }}</a>
             {% endfor %}
           </div>
         </div>          

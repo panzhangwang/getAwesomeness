@@ -18,7 +18,7 @@ exports.index = function (req, res){
 };
 
 exports.json = function (req, res){  
-  res.json( db('items').where() );
+  res.json( db('defs').where() );
 };
 
 
@@ -57,7 +57,7 @@ exports.get = function (req, res){
 
 	var awe = req.params.awe;
   var article = cache.get(awe);
-  var found = db('items').find({ key: awe });
+  var found = db('defs').find({ key: awe });
 
   if (!found) return res.render('404');
 
@@ -78,7 +78,8 @@ exports.get = function (req, res){
     });
   }
 
-  var url = 'https://raw.githubusercontent.com' + found.name + '/master/' + found.file;
+  var mkFile = found.file ? found.file : "README.md";
+  var url = 'https://raw.githubusercontent.com' + found.name + '/master/' + mkFile;
 
   request(url, function (error, response, body) {   
     if (!error && response.statusCode == 200) {

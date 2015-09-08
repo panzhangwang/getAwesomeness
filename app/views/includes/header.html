@@ -13,11 +13,11 @@
       <ul class="nav navbar-nav">
         {% if activeAwe %}
           <li class="active">
-            <a href="{{ '/lists/' + activeAwe }}" title="{{ activeAwe }}">{{ activeAwe }}</a>
+            <a href="{{ '/lists/' + activeAwe }}" title="{{ activeAwe }}">{{ label(activeAwe) }}</a>
           </li>
         {% else%}
           {% for r in recents %}          
-            <li class="{% if (r == awe) %}active{% endif %}"><a href="{{ '/get/' + r }}">{{ r }}</a></li>           
+            <li class="{% if (r == awe) %}active{% endif %}"><a href="{{ '/get/' + r }}">{{ label(r) }}</a></li>           
           {% endfor %}
         {% endif %}
       </ul>
