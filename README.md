@@ -26,7 +26,7 @@ Then visit [http://localhost:3000/](http://localhost:3000/)
 
 ## Steps to add a new list
 
-1. Open db.json, add a new definition under defs.
+- Open db.json, add a new definition under defs.
 ```js
 	{
       "key": "java",
@@ -37,7 +37,7 @@ Then visit [http://localhost:3000/](http://localhost:3000/)
 ```
 file atrribute is optional, by default it is README.md.
 
-2. Register the key of the list under groups.
+- Register the key of the list under groups.
 ```js
 	{
       "title": "JVM",
