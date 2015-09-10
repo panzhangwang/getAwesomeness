@@ -30,8 +30,8 @@ Then visit [http://localhost:3000/](http://localhost:3000/)
 ```js
 	{
       "key": "java",
-      "lbl": "Java",
-      "name": "/akullpp/awesome-java",
+      "name": "Java",
+      "repo": "/akullpp/awesome-java",
       "file": "README.md"
     }
 ```

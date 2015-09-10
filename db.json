@@ -167,413 +167,413 @@
   "defs": [
     {
       "key": "cpp",
-      "lbl": "C/C++",
-      "name": "/fffaraz/awesome-cpp"
+      "name": "C/C++",
+      "repo": "/fffaraz/awesome-cpp"
     },
     {
       "key": "c",
-      "lbl": "C",
-      "name": "/aleksandar-todorovic/awesome-c"
+      "name": "C",
+      "repo": "/aleksandar-todorovic/awesome-c"
     },
     {
       "key": "autohotkey",
-      "lbl": "AutoHotkey",
-      "name": "/ahkscript/awesome-AutoHotkey"
+      "name": "AutoHotkey",
+      "repo": "/ahkscript/awesome-AutoHotkey"
     },
     {
       "key": "coldfusion",
-      "lbl": "ColdFusion",
-      "name": "/seancoyne/awesome-coldfusion"
+      "name": "ColdFusion",
+      "repo": "/seancoyne/awesome-coldfusion"
     },
     {
       "key": "d",
-      "lbl": "D",
-      "name": "/zhaopuming/awesome-d"
+      "name": "D",
+      "repo": "/zhaopuming/awesome-d"
     },
     {
       "key": "delphi",
-      "lbl": "Delphi",
-      "name": "/Fr0sT-Brutal/awesome-delphi"
+      "name": "Delphi",
+      "repo": "/Fr0sT-Brutal/awesome-delphi"
     },
     {
       "key": "fortran",
-      "lbl": "Fortran",
-      "name": "/rabbiabram/awesome-fortran"
+      "name": "Fortran",
+      "repo": "/rabbiabram/awesome-fortran"
     },
     {
       "key": "go",
-      "lbl": "Go",
-      "name": "/avelino/awesome-go"
+      "name": "Go",
+      "repo": "/avelino/awesome-go"
     },
     {
       "key": "perl",
-      "lbl": "Perl",
-      "name": "/hachiojipm/awesome-perl"
+      "name": "Perl",
+      "repo": "/hachiojipm/awesome-perl"
     },
     {
       "key": "rust",
-      "lbl": "Rust",
-      "name": "/kud1ing/awesome-rust"
+      "name": "Rust",
+      "repo": "/kud1ing/awesome-rust"
     },
     {
       "key": "net",
-      "lbl": ".Net",
-      "name": "/quozd/awesome-dotnet"
+      "name": ".Net",
+      "repo": "/quozd/awesome-dotnet"
     },
     {
       "key": "python",
-      "lbl": "Python",
-      "name": "/kirang89/pycrumbs",
+      "name": "Python",
+      "repo": "/kirang89/pycrumbs",
       "file": "pycrumbs.md"
     },
     {
       "key": "ruby",
-      "lbl": "Ruby",
-      "name": "/markets/awesome-ruby"
+      "name": "Ruby",
+      "repo": "/markets/awesome-ruby"
     },
     {
       "key": "swift",
-      "lbl": "Swift",
-      "name": "/matteocrippa/awesome-swift"
+      "name": "Swift",
+      "repo": "/matteocrippa/awesome-swift"
     },
     {
       "key": "groovy",
-      "lbl": "Groovy",
-      "name": "/kdabir/awesome-groovy"
+      "name": "Groovy",
+      "repo": "/kdabir/awesome-groovy"
     },
     {
       "key": "js",
-      "lbl": "JavaScript",
-      "name": "/sorrycc/awesome-javascript"
+      "name": "JavaScript",
+      "repo": "/sorrycc/awesome-javascript"
     },
     {
       "key": "shell",
-      "lbl": "Shell",
-      "name": "/alebcay/awesome-shell"
+      "name": "Shell",
+      "repo": "/alebcay/awesome-shell"
     },
     {
       "key": "lua",
-      "lbl": "Lua",
-      "name": "/LewisJEllis/awesome-lua"
+      "name": "Lua",
+      "repo": "/LewisJEllis/awesome-lua"
     },
     {
       "key": "php",
-      "lbl": "PHP",
-      "name": "/ziadoz/awesome-php"
+      "name": "PHP",
+      "repo": "/ziadoz/awesome-php"
     },
     {
       "key": "cakephp",
-      "lbl": "CakePHP",
-      "name": "/FriendsOfCake/awesome-cakephp"
+      "name": "CakePHP",
+      "repo": "/FriendsOfCake/awesome-cakephp"
     },
     {
       "key": "laravel",
-      "lbl": "Laravel",
-      "name": "/timothydjones/awesome-laravel"
+      "name": "Laravel",
+      "repo": "/timothydjones/awesome-laravel"
     },
     {
       "key": "symfony",
-      "lbl": "Symfony",
-      "name": "/EmanueleMinotto/awesome-symfony2"
+      "name": "Symfony",
+      "repo": "/EmanueleMinotto/awesome-symfony2"
     },
     {
       "key": "java",
-      "lbl": "Java",
-      "name": "/akullpp/awesome-java"
+      "name": "Java",
+      "repo": "/akullpp/awesome-java"
     },
     {
       "key": "scala",
-      "lbl": "Scala",
-      "name": "/lauris/awesome-scala"
+      "name": "Scala",
+      "repo": "/lauris/awesome-scala"
     },
     {
       "key": "r",
-      "lbl": "R",
-      "name": "/qinwf/awesome-R"
+      "name": "R",
+      "repo": "/qinwf/awesome-R"
     },
     {
       "key": "clojure",
-      "lbl": "Clojure",
-      "name": "/razum2um/awesome-clojure"
+      "name": "Clojure",
+      "repo": "/razum2um/awesome-clojure"
     },
     {
       "key": "elixir",
-      "lbl": "Elixir",
-      "name": "/h4cc/awesome-elixir"
+      "name": "Elixir",
+      "repo": "/h4cc/awesome-elixir"
     },
     {
       "key": "ocaml",
-      "lbl": "OCaml",
-      "name": "/rizo/awesome-ocaml"
+      "name": "OCaml",
+      "repo": "/rizo/awesome-ocaml"
     },
     {
       "key": "haskell",
-      "lbl": "Haskell",
-      "name": "/krispo/awesome-haskell"
+      "name": "Haskell",
+      "repo": "/krispo/awesome-haskell"
     },
     {
       "key": "erlang",
-      "lbl": "Erlang",
-      "name": "/drobakowski/awesome-erlang"
+      "name": "Erlang",
+      "repo": "/drobakowski/awesome-erlang"
     },
     {
       "key": "erlang_bm",
-      "lbl": "Erlang Bookmarks",
-      "name": "/0xAX/erlang-bookmarks",
+      "name": "Erlang Bookmarks",
+      "repo": "/0xAX/erlang-bookmarks",
       "file": "ErlangBookmarks.md"
     },
     {
       "key": "angularjs",
-      "lbl": "AngularJS",
-      "name": "/gianarb/awesome-angularjs"
+      "name": "AngularJS",
+      "repo": "/gianarb/awesome-angularjs"
     },
     {
       "key": "backbone",
-      "lbl": "Backbone",
-      "name": "/instanceofpro/awesome-backbone"
+      "name": "Backbone",
+      "repo": "/instanceofpro/awesome-backbone"
     },
     {
       "key": "dojo",
-      "lbl": "Dojo",
-      "name": "/peterkokot/awesome-dojo"
+      "name": "Dojo",
+      "repo": "/peterkokot/awesome-dojo"
     },
     {
       "key": "jquery",
-      "lbl": "jQuery",
-      "name": "/peterkokot/awesome-jquery"
+      "name": "jQuery",
+      "repo": "/peterkokot/awesome-jquery"
     },
     {
       "key": "knockout",
-      "lbl": "Knockout",
-      "name": "/peterkokot/awesome-knockout",
+      "name": "Knockout",
+      "repo": "/peterkokot/awesome-knockout",
       "file": "readme.md"
     },
     {
       "key": "nodejs",
-      "lbl": "Node",
-      "name": "/sindresorhus/awesome-nodejs",
+      "name": "Node",
+      "repo": "/sindresorhus/awesome-nodejs",
       "file": "readme.md"
     },
     {
       "key": "react",
-      "lbl": "React",
-      "name": "/enaqx/awesome-react"
+      "name": "React",
+      "repo": "/enaqx/awesome-react"
     },
     {
       "key": "webcomponents",
-      "lbl": "Web Components",
-      "name": "/mateusortiz/webcomponents-the-right-way"
+      "name": "Web Components",
+      "repo": "/mateusortiz/webcomponents-the-right-way"
     },
     {
       "key": "android",
-      "lbl": "Android",
-      "name": "/JStumpp/awesome-android",
+      "name": "Android",
+      "repo": "/JStumpp/awesome-android",
       "file": "readme.md"
     },
     {
       "key": "apple",
-      "lbl": "Apple",
-      "name": "/joeljfischer/awesome-apple"
+      "name": "Apple",
+      "repo": "/joeljfischer/awesome-apple"
     },
     {
       "key": "ios",
-      "lbl": "iOS",
-      "name": "/vsouza/awesome-ios"
+      "name": "iOS",
+      "repo": "/vsouza/awesome-ios"
     },
     {
       "key": "cordova",
-      "lbl": "Cordova",
-      "name": "/busterc/awesome-cordova"
+      "name": "Cordova",
+      "repo": "/busterc/awesome-cordova"
     },
     {
       "key": "docs",
-      "lbl": "Documentation",
-      "name": "/PharkMillups/beautiful-docs"
+      "name": "Documentation",
+      "repo": "/PharkMillups/beautiful-docs"
     },
     {
       "key": "svg",
-      "lbl": "SVG",
-      "name": "/willianjusten/awesome-svg",
+      "name": "SVG",
+      "repo": "/willianjusten/awesome-svg",
       "file": "readme.md"
     },
     {
       "key": "images",
-      "lbl": "Images",
-      "name": "/heyalexej/awesome-images"
+      "name": "Images",
+      "repo": "/heyalexej/awesome-images"
     },
     {
       "key": "front_dev",
-      "lbl": "Frontend Development",
-      "name": "/dypsilon/frontend-dev-bookmarks"
+      "name": "Frontend Development",
+      "repo": "/dypsilon/frontend-dev-bookmarks"
     },
     {
       "key": "h5",
-      "lbl": "HTML5",
-      "name": "/diegocard/awesome-html5"
+      "name": "HTML5",
+      "repo": "/diegocard/awesome-html5"
     },
     {
       "key": "docker",
-      "lbl": "Docker",
-      "name": "/veggiemonk/awesome-docker"
+      "name": "Docker",
+      "repo": "/veggiemonk/awesome-docker"
     },
     {
       "key": "gamedev",
-      "lbl": "Game Development",
-      "name": "/ellisonleao/magictools"
+      "name": "Game Development",
+      "repo": "/ellisonleao/magictools"
     },
     {
       "key": "openresty",
-      "lbl": "OpenResty",
-      "name": "/bungle/awesome-resty"
+      "name": "OpenResty",
+      "repo": "/bungle/awesome-resty"
     },
     {
       "key": "servicesengineering",
-      "lbl": "Services Engineering",
-      "name": "/mmcgrana/services-engineering"
+      "name": "Services Engineering",
+      "repo": "/mmcgrana/services-engineering"
     },
     {
       "key": "sysadmin",
-      "lbl": "Sysadmin",
-      "name": "/kahun/awesome-sysadmin"
+      "name": "Sysadmin",
+      "repo": "/kahun/awesome-sysadmin"
     },
     {
       "key": "julia",
-      "lbl": "Julia",
-      "name": "/svaksha/Julia.jl"
+      "name": "Julia",
+      "repo": "/svaksha/Julia.jl"
     },
     {
       "key": "sublime",
-      "lbl": "Sublime Text",
-      "name": "/dreikanter/sublime-bookmarks"
+      "name": "Sublime Text",
+      "repo": "/dreikanter/sublime-bookmarks"
     },
     {
       "key": "vim",
-      "lbl": "Vim",
-      "name": "/akrawchyk/awesome-vim"
+      "name": "Vim",
+      "repo": "/akrawchyk/awesome-vim"
     },
     {
       "key": "algorithm",
-      "lbl": "Algorithm",
-      "name": "/tayllan/awesome-algorithms"
+      "name": "Algorithm",
+      "repo": "/tayllan/awesome-algorithms"
     },
     {
       "key": "conferences",
-      "lbl": "Conferences",
-      "name": "/RichardLitt/awesome-conferences"
+      "name": "Conferences",
+      "repo": "/RichardLitt/awesome-conferences"
     },
     {
       "key": "testbook",
-      "lbl": "Testing Books",
-      "name": "/ligurio/free-software-testing-books",
+      "name": "Testing Books",
+      "repo": "/ligurio/free-software-testing-books",
       "file": "free-software-testing-books.md"
     },
     {
       "key": "koans",
-      "lbl": "Koans",
-      "name": "/ahmdrefat/awesome-koans",
+      "name": "Koans",
+      "repo": "/ahmdrefat/awesome-koans",
       "file": "koans-en.md"
     },
     {
       "key": "openscience",
-      "lbl": "Open Science",
-      "name": "/silky/awesome-open-science"
+      "name": "Open Science",
+      "repo": "/silky/awesome-open-science"
     },
     {
       "key": "papers",
-      "lbl": "Papers",
-      "name": "/papers-we-love/papers-we-love"
+      "name": "Papers",
+      "repo": "/papers-we-love/papers-we-love"
     },
     {
       "key": "talks",
-      "lbl": "Talks",
-      "name": "/JanVanRyswyck/awesome-talks"
+      "name": "Talks",
+      "repo": "/JanVanRyswyck/awesome-talks"
     },
     {
       "key": "analytics",
-      "lbl": "Analytics",
-      "name": "/onurakpolat/awesome-analytics"
+      "name": "Analytics",
+      "repo": "/onurakpolat/awesome-analytics"
     },
     {
       "key": "db",
-      "lbl": "Database",
-      "name": "/numetriclabz/awesome-db"
+      "name": "Database",
+      "repo": "/numetriclabz/awesome-db"
     },
     {
       "key": "datascience",
-      "lbl": "Data Science",
-      "name": "/okulbilisim/awesome-datascience"
+      "name": "Data Science",
+      "repo": "/okulbilisim/awesome-datascience"
     },
     {
       "key": "dataset",
-      "lbl": "Dataset",
-      "name": "/caesar0301/awesome-public-datasets",
+      "name": "Dataset",
+      "repo": "/caesar0301/awesome-public-datasets",
       "file": "README.rst"
     },
     {
       "key": "ml",
-      "lbl": "Machine Learning",
-      "name": "/josephmisiti/awesome-machine-learning"
+      "name": "Machine Learning",
+      "repo": "/josephmisiti/awesome-machine-learning"
     },
     {
       "key": "hadoop",
-      "lbl": "Hadoop",
-      "name": "/youngwookim/awesome-hadoop"
+      "name": "Hadoop",
+      "repo": "/youngwookim/awesome-hadoop"
     },
     {
       "key": "tools",
-      "lbl": "Tools of The Trade",
-      "name": "/cjbarber/ToolsOfTheTrade"
+      "name": "Tools of The Trade",
+      "repo": "/cjbarber/ToolsOfTheTrade"
     },
     {
       "key": "dotfiles",
-      "lbl": "Dotfiles",
-      "name": "/webpro/awesome-dotfiles"
+      "name": "Dotfiles",
+      "repo": "/webpro/awesome-dotfiles"
     },
     {
       "key": "devenv",
-      "lbl": "Dev Env",
-      "name": "/jondot/awesome-devenv"
+      "name": "Dev Env",
+      "repo": "/jondot/awesome-devenv"
     },
     {
       "key": "ccm",
-      "lbl": "Creative Commons Media",
-      "name": "/shime/creative-commons-media"
+      "name": "Creative Commons Media",
+      "repo": "/shime/creative-commons-media"
     },
     {
       "key": "ciandcd",
-      "lbl": "Continuous Delivery",
-      "name": "/itech001/ciandcd"
+      "name": "Continuous Delivery",
+      "repo": "/itech001/ciandcd"
     },
     {
       "key": "community",
-      "lbl": "Community",
-      "name": "/peterkokot/awesome-community"
+      "name": "Community",
+      "repo": "/peterkokot/awesome-community"
     },
     {
       "key": "styleguide",
-      "lbl": "Styleguides",
-      "name": "/RichardLitt/awesome-styleguides"
+      "name": "Styleguides",
+      "repo": "/RichardLitt/awesome-styleguides"
     },
     {
       "key": "nlp",
-      "lbl": "Natural Language Processing",
-      "name": "/edobashira/speech-language-processing",
+      "name": "Natural Language Processing",
+      "repo": "/edobashira/speech-language-processing",
       "file": "README.rst"
     },
     {
       "key": "vagrant",
-      "lbl": "Vagrant",
-      "name": "/iJackUA/awesome-vagrant"
+      "name": "Vagrant",
+      "repo": "/iJackUA/awesome-vagrant"
     },
     {
       "key": "weekly",
-      "lbl": "Weekly Newsletters",
-      "name": "/jondot/awesome-weekly"
+      "name": "Weekly Newsletters",
+      "repo": "/jondot/awesome-weekly"
     },
     {
       "key": "wpo",
-      "lbl": "Web Performance Optimization",
-      "name": "/davidsonfellipe/awesome-wpo"
+      "name": "Web Performance Optimization",
+      "repo": "/davidsonfellipe/awesome-wpo"
     }
   ]
 }

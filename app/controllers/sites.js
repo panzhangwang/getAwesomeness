@@ -79,7 +79,7 @@ exports.get = function (req, res){
   }
 
   var mkFile = found.file ? found.file : "README.md";
-  var url = 'https://raw.githubusercontent.com' + found.name + '/master/' + mkFile;
+  var url = 'https://raw.githubusercontent.com' + found.repo + '/master/' + mkFile;
 
   request(url, function (error, response, body) {   
     if (!error && response.statusCode == 200) {
