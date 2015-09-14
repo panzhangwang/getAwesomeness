@@ -152,6 +152,12 @@
       ]
     },
     {
+      "title": "Platforms",
+      "items": [
+        "osx"
+      ]
+    },
+    {
       "title": "Others",
       "items": [
         "ccm",
@@ -569,6 +575,11 @@
       "key": "weekly",
       "name": "Weekly Newsletters",
       "repo": "/jondot/awesome-weekly"
+    },
+    {
+      "key": "osx",
+      "name": "OS X",
+      "repo": "/iCHAIT/awesome-osx"
     },
     {
       "key": "wpo",
