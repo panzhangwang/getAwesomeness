@@ -1,0 +1,147 @@
+// usage: .variations(~" .check", color, transparent);
+.variations(@extra, @property, @default) {
+  .generic-variations(@extra, @default, {
+    @{property}: @material-color;
+  });
+}
+
+.background-variations(@extra, @default) {
+  .generic-variations(@extra, @default, {
+    background-color: @material-color;
+    & when (@material-color = @btn-default) {
+      color: @lightbg-text;
+    }
+    & when not (@material-color = @btn-default) {
+      color: @material-text-color;
+    }
+  });
+}
+
+.text-variations(@extra, @default) {
+  .generic-variations(@extra, @default, {
+    color: @material-color;
+  });
+}
+
+//
+// To use this mixin you should pass a function as final parameter to define
+// the style. In that definition you can use the following variables to define it.
+//
+// @material-color-name ---> "red", "green", "indigo" ...
+// @material-color-full-name ---> "red", "green-50", "indigo-400" ...
+// @material-color ---> #f44336, #e8f5e9, #5c6bc0 ...
+// @material-text-color ---> rgba(255,255,255,0.84), rgba(0,0,0,0.84), rgba(255,255,255,0.84) ...
+//
+
+
+.generic-variations(@extra, @default, @func) {
+
+  @contrast-factor: 40%;
+
+  // bootstrap styles
+  &@{extra}, &-default@{extra} {
+    @material-color-name: "default";
+    @material-color-full-name: @material-color-name;
+    @material-color: @default;
+    @material-text-color: @darkbg-text;
+    @func();
+  }
+  &-black@{extra} {
+    @material-color-name: "black";
+    @material-color-full-name: @material-color-name;
+    @material-color: @black;
+    @material-text-color: @darkbg-text;
+    @func();
+  }
+  &-white@{extra} {
+    @material-color-name: "white";
+    @material-color-full-name: @material-color-name;
+    @material-color: @white;
+    @material-text-color: @lightbg-text;
+    @func();
+  }
+  &-inverse@{extra} {
+    @material-color-name: "inverse";
+    @material-color-full-name: @material-color-name;
+    @material-color: @inverse;
+    @material-text-color: contrast(@inverse, @lightbg-text, @darkbg-text, @contrast-factor);
+    @func();
+  }
+  &-primary@{extra} {
+    @material-color-name: "primary";
+    @material-color-full-name: @material-color-name;
+    @material-color: @primary;
+    @material-text-color: @darkbg-text;
+    @func();
+  }
+  &-success@{extra} {
+    @material-color-name: "success";
+    @material-color-full-name: @material-color-name;
+    @material-color: @success;
+    @material-text-color: @darkbg-text;
+    @func();
+  }
+  &-info@{extra} {
+    @material-color-name: "info";
+    @material-color-full-name: @material-color-name;
+    @material-color: @info;
+    @material-text-color: @darkbg-text;
+    @func();
+  }
+  &-warning@{extra} {
+    @material-color-name: "warning";
+    @material-color-full-name: @material-color-name;
+    @material-color: @warning;
+    @material-text-color: @darkbg-text;
+    @func();
+  }
+  &-danger@{extra} {
+    @material-color-name: "danger";
+    @material-color-full-name: @material-color-name;
+    @material-color: @danger;
+    @material-text-color: @darkbg-text;
+    @func();
+  }
+
+  // given a color build multiples dephs
+  .generic-variations-factory(@material-color-name) {
+
+    // given a color and its deph build css
+    .generic-variations-factory-deep(@material-color-number) {
+
+      &-material-@{material-color-name}@{material-color-number}@{extra} {
+        @material-color-full-name: "@{material-color-name}@{material-color-number}";
+        @material-color: @@material-color-full-name;
+        @material-text-color: contrast(@material-color, @lightbg-text, @darkbg-text, @contrast-factor);
+        @func();
+      }
+
+    }
+
+    .generic-variations-factory-deep(~"");
+  }
+
+  .generic-variations-factory(~"red");
+  .generic-variations-factory(~"pink");
+  .generic-variations-factory(~"purple");
+  .generic-variations-factory(~"deep-purple");
+  .generic-variations-factory(~"indigo");
+  .generic-variations-factory(~"blue");
+  .generic-variations-factory(~"light-blue");
+  .generic-variations-factory(~"cyan");
+  .generic-variations-factory(~"teal");
+  .generic-variations-factory(~"green");
+  .generic-variations-factory(~"light-green");
+  .generic-variations-factory(~"lime");
+  .generic-variations-factory(~"yellow");
+  .generic-variations-factory(~"amber");
+  .generic-variations-factory(~"orange");
+  .generic-variations-factory(~"deep-orange");
+  .generic-variations-factory(~"brown");
+  .generic-variations-factory(~"grey");
+  .generic-variations-factory(~"blue-grey");
+
+}
+
+
+@all-variations: ~"-default, -primary, -info, -success, -warning, -danger";

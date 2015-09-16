@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$.material.init();
   $('#sidebar').affix({
     offset: {
       top:100,

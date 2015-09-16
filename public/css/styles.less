@@ -1,4 +1,5 @@
 @import "lib/bootstrap/bootstrap";
+@import "lib/bootstrap-material-design/material";
 
 html {
   position: relative;
@@ -8,7 +9,7 @@ body {
   margin-bottom: 60px;
 }
 body > .container {
-  padding-top: 60px;
+  padding-top: 80px;
 }
 .muted {
   color: #aaa;
@@ -33,21 +34,17 @@ body > .container {
 }
 
 #sidebar{
+  border-radius: 2px;
+  border: 0;
+  .shadow-z-1;
   max-height: 100%;
-  overflow-y: auto;   
+  overflow-y: auto;
+  padding-left: 5px;
 }
 
 .navbar-right > li > a {
   padding-left: 5px;
   padding-right: 5px;
-}
-
-.list-group-item {
-  padding: 5px 15px;
-}
-.panel-heading {
-  padding: 5px 15px;
-  font-weight: 700;
 }
 
 .markdown-body {
@@ -69,11 +66,8 @@ body > .container {
   }
 }
 
-.toc {    
-    background: #454442;
-    box-shadow: inset -5px 0 5px 0px #333;
+.toc {
     padding-top: 20px;
-    color: #fff;
 }
 
 .toc ul {
@@ -87,7 +81,7 @@ body > .container {
 }
 
 .toc a {
-    color: #fff;
+    color: #009688;
     text-decoration: none;
     display: block;
 }
