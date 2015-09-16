@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$.material.init();
+	$("#toTop").scrollToTop();
   $('#sidebar').affix({
     offset: {
       top:100,
