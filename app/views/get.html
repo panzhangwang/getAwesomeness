@@ -6,14 +6,14 @@
 			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">			  
 				{% for g in groups %}
 					<div class="panel panel-default">
-				    <div class="panel-heading" role="tab" id="{{ slug(g.title) }}">
+				    <div class="panel-heading" role="tab" id="{{ g.key }}">
 				      <h4 class="panel-title">
-				        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#_{{ slug(g.title) }}" aria-expanded="true" aria-controls="_{{ slug(g.title) }}">
-				          {{ g.title }}
+				        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#_{{ g.key }}" aria-expanded="true" aria-controls="_{{ g.key }}">
+				          {{ __(g.key) }}
 				        </a>
 				      </h4>
 				    </div>
-				    <div id="_{{ slug(g.title) }}" class="panel-collapse collapse out" role="tabpanel" aria-labelledby="{{ slug(g.title) }}">
+				    <div id="_{{ g.key }}" class="panel-collapse collapse out" role="tabpanel" aria-labelledby="{{ g.key }}">
 				      
 			        <div class="list-group">          	
 		            {% for it in g.items %}

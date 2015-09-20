@@ -1,7 +1,7 @@
 {
   "groups": [
     {
-      "title": "General",
+      "key": "general",
       "items": [
         "c",
         "cpp",
@@ -18,7 +18,7 @@
       ]
     },
     {
-      "title": "Scripting",
+      "key": "scripting",
       "items": [
         "autohotkey",
         "coldfusion",
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "title": "Web Framework",
+      "key": "web.framework",
       "items": [
         "cakephp",
         "laravel",
@@ -39,20 +39,20 @@
       ]
     },
     {
-      "title": "JVM",
+      "key": "jvm",
       "items": [
         "java",
         "scala"
       ]
     },
     {
-      "title": "Domain Specific",
+      "key": "domain.specific",
       "items": [
         "r"
       ]
     },
     {
-      "title": "Functional",
+      "key": "functional",
       "items": [
         "clojure",
         "elixir",
@@ -63,7 +63,7 @@
       ]
     },
     {
-      "title": "Web",
+      "key": "web",
       "items": [
         "angularjs",
         "backbone",
@@ -77,7 +77,7 @@
       ]
     },
     {
-      "title": "Mobile",
+      "key": "mobile",
       "items": [
         "android",
         "apple",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "title": "FrontEnd",
+      "key": "frontend",
       "items": [
         "docs",
         "svg",
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "title": "Backend",
+      "key": "backend",
       "items": [
         "docker",
         "gamedev",
@@ -106,21 +106,21 @@
       ]
     },
     {
-      "title": "Danymic",
+      "key": "danymic",
       "items": [
         "clojure",
         "julia"
       ]
     },
     {
-      "title": "Editors",
+      "key": "editors",
       "items": [
         "sublime",
         "vim"
       ]
     },
     {
-      "title": "Self Education",
+      "key": "self.education",
       "items": [
         "algorithm",
         "conferences",
@@ -133,7 +133,7 @@
       ]
     },
     {
-      "title": "Data",
+      "key": "data",
       "items": [
         "analytics",
         "db",
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "title": "Dev Tools",
+      "key": "dev.tools",
       "items": [
         "tools",
         "dotfiles",
@@ -152,13 +152,13 @@
       ]
     },
     {
-      "title": "Platforms",
+      "key": "platforms",
       "items": [
         "osx"
       ]
     },
     {
-      "title": "Others",
+      "key": "others",
       "items": [
         "ccm",
         "ciandcd",

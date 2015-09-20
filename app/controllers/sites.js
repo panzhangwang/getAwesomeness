@@ -6,8 +6,7 @@ var _ = require('lodash');
 var low = require('lowdb');
 var db = low('db.json');
 
-
-exports.index = function (req, res){  
+exports.index = function (req, res){
 	var aweCookie = req.cookies.aweCookie;
 	var recents = aweCookie? JSON.parse(aweCookie) : [];
   res.render('index', {

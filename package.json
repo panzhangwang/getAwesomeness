@@ -39,12 +39,14 @@
     "memory-cache": "latest",
     "lodash": "latest",
     "lowdb": "^0.10.2",
+    "locale": "^0.0.20",
+    "i18n": "^0.5.0",
     "slug": "^0.9.1"
   },
   "devDependencies": {
     "supertest": "0.13.0",
     "should": "4.0.4",
     "mocha": "1.21.4",
-    "nodemon": "1.2.1"
+    "nodemon": "1.6.1"
   }
 }

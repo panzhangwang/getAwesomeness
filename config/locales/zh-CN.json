@@ -1,0 +1,19 @@
+{
+	"general": "通用语言",
+	"scripting": "脚本语言",
+	"web.framework": "Web框架",
+	"jvm": "虚拟机",
+	"domain.specific": "特殊语言",
+	"functional": "函数式语言",
+	"web": "网页开发",
+	"mobile": "移动开发",
+	"frontend": "前端开发",
+	"backend": "后端开发",
+	"danymic": "动态语言",
+	"editors": "编辑器",
+	"self.education": "自学",
+	"data": "数据",
+	"dev.tools": "开发工具",
+	"platforms": "平台",
+	"others": "其他"
+}

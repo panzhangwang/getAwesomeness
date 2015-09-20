@@ -18,8 +18,23 @@ var path = require('path');
 var connectAssets = require('connect-assets');
 var uihelpers = require('../lib/uihelpers');
 var flash = require('connect-flash');
+var i18n = require('i18n');
+var locale = require("locale");
+var supported = ["en", "zh-CN"];
 
 var env = process.env.NODE_ENV || 'development';
+
+i18n.configure({
+  // setup some locales - other locales default to en silently
+  locales: ['en', 'zh-CN'],
+ 
+  // sets a custom cookie name to parse locale settings from
+  cookie: 'awesome.cookie',
+ 
+  // where to store json files - defaults to './locales'
+  directory: __dirname + '/locales',
+  defaultLocale: 'en',
+});
 
 /**
  * Expose
@@ -85,10 +100,12 @@ module.exports = function (app, passport) {
   }));
 
   app.use(cookieParser());
+  app.use(i18n.init);
   app.use(cookieSession({ secret: 'getAwesomeness rocks secret' }));
   app.use(flash());
   
   // should be declared after session and flash
   app.use(helpers(pkg.name));
   app.use(uihelpers(pkg.name));
+  app.use(locale(supported));
 };

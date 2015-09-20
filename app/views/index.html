@@ -11,7 +11,7 @@
         {% for g in groups %}
      		  <div class="col-md-3">
         		<div class="panel panel-primary">
-              <div class="panel-heading">{{ g.title }}</div>
+              <div class="panel-heading">{{ __(g.key) }}</div>
               <div class="list-group">
                 {% for it in g.items %}
                   <h4><a class="list-group-item" href="{{ '/get/' + it }}">{{ label(it) }}</a></h4>
