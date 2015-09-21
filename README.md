@@ -9,6 +9,7 @@ getAwesomeness() is an explorer designed for curated awesome list hosted on Gith
 - Single repository  of amazing lists
 - Better organization and navigation
 - Content auto-synced with github
+- i18n support
 
 ## Rational
 As a developer, we need check out these resources pretty often, and we want to save our time and have a better bookmarking experience. With that in mind, getAwesomeness() shares a better organization and navigation method. It works by croping the table of contents out from  the markdown file, normally, README.md, and regenerating TOC and then affixing it on the side bar. So, if you found the hacking breaks, please raise an issue or send us a PR, your contribution is always welcome.
