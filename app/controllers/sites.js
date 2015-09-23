@@ -70,7 +70,7 @@ exports.get = function (req, res){
       article: article,
       recents: recents,
       groups: db('groups').where({}),
-      repo: found.name,
+      repo: found.repo,
       activeAwe: activeAwe,
       keys: keys,
       awe: awe
@@ -98,7 +98,7 @@ exports.get = function (req, res){
         article: body,
         recents: recents,
         groups: db('groups').where({}),
-        repo: found.name,
+        repo: found.repo,
         activeAwe: activeAwe,
         keys: keys,
         awe: awe
