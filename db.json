@@ -558,7 +558,8 @@
     {
       "key": "styleguide",
       "name": "Styleguides",
-      "repo": "/RichardLitt/awesome-styleguides"
+      "repo": "/RichardLitt/awesome-styleguides",
+      "file": "readme.md"
     },
     {
       "key": "nlp",
