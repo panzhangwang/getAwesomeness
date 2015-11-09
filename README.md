@@ -1,7 +1,7 @@
 getAwesomeness()
 ==============
 
-getAwesomeness() is an explorer designed for curated awesome list hosted on Github. Website: https://getawesomeness.herokuapp.com/ or http://getawesomeness.com
+getAwesomeness() is an explorer designed for curated awesome list hosted on Github. Website: https://getawesomeness.herokuapp.com/.
 
 
 ## Key Features
