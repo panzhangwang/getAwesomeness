@@ -83,6 +83,7 @@
         "apple",
         "ios",
         "cordova"
+        "mobile_frameworks_comparison_chart"
       ]
     },
     {
@@ -586,6 +587,12 @@
       "key": "wpo",
       "name": "Web Performance Optimization",
       "repo": "/davidsonfellipe/awesome-wpo"
+    },
+    {
+      "key": "mobile_frameworks_comparison_chart",
+      "name": "Mobile Frameworks Comparison Chart",
+      "repo": "markusfalk/mobile-frameworks-comparison-data",
+      "file": "readme.md"
     }
   ]
 }
