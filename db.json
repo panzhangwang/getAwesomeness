@@ -80,6 +80,7 @@
       "key": "mobile",
       "items": [
         "android",
+        "android_ui"
         "apple",
         "ios",
         "cordova"
@@ -592,6 +593,12 @@
       "key": "mobile_frameworks_comparison_chart",
       "name": "Mobile Frameworks Comparison Chart",
       "repo": "markusfalk/mobile-frameworks-comparison-data",
+      "file": "readme.md"
+    },
+    {
+      "key": "android_ui",
+      "name": "Android UI/UX",
+      "repo": "wasabeef/awesome-android-ui",
       "file": "readme.md"
     }
   ]
