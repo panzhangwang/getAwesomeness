@@ -9,6 +9,7 @@
         "delphi",
         "fortran",
         "go",
+        "graphql",
         "perl",
         "rust",
         "net",
@@ -106,7 +107,7 @@
       ]
     },
     {
-      "key": "danymic",
+      "key": "dynamic",
       "items": [
         "clojure",
         "julia"
@@ -364,6 +365,12 @@
       "key": "react",
       "name": "React",
       "repo": "/enaqx/awesome-react"
+    },
+    {
+      "key": "graphql",
+      "name": "GraphQL",
+      "repo": "/chentsulin/awesome-graphql",
+      "file": "README.md"
     },
     {
       "key": "webcomponents",
