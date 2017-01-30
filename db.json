@@ -344,17 +344,17 @@
     {
       "key": "dojo",
       "name": "Dojo",
-      "repo": "/peterkokot/awesome-dojo"
+      "repo": "/petk/awesome-dojo"
     },
     {
       "key": "jquery",
       "name": "jQuery",
-      "repo": "/peterkokot/awesome-jquery"
+      "repo": "/petk/awesome-jquery"
     },
     {
       "key": "knockout",
       "name": "Knockout",
-      "repo": "/peterkokot/awesome-knockout",
+      "repo": "/dnbard/awesome-knockout",
       "file": "readme.md"
     },
     {
@@ -562,7 +562,7 @@
     {
       "key": "community",
       "name": "Community",
-      "repo": "/peterkokot/awesome-community"
+      "repo": "/petk/awesome-community"
     },
     {
       "key": "styleguide",
