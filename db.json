@@ -74,17 +74,18 @@
         "nodejs",
         "php",
         "react",
-        "webcomponents"
+        "webcomponents",
+        "websockets"
       ]
     },
     {
       "key": "mobile",
       "items": [
         "android",
-        "android_ui"
+        "android_ui",
         "apple",
         "ios",
-        "cordova"
+        "cordova",
         "mobile_frameworks_comparison_chart"
       ]
     },
@@ -378,6 +379,11 @@
       "key": "webcomponents",
       "name": "Web Components",
       "repo": "/mateusortiz/webcomponents-the-right-way"
+    },
+    {
+      "key": "websockets",
+      "name": "Web Sockets",
+      "repo": "/facundofarias/awesome-websockets"
     },
     {
       "key": "android",
