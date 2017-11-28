@@ -163,6 +163,7 @@
     {
       "key": "others",
       "items": [
+        "bpm",
         "ccm",
         "ciandcd",
         "community",
@@ -607,6 +608,11 @@
       "name": "Android UI/UX",
       "repo": "wasabeef/awesome-android-ui",
       "file": "readme.md"
+    },
+    {
+      "key": "bpm",
+      "name": "Business Process Management",
+      "repo": "ungerts/awesome-bpm"
     }
   ]
 }
